@@ -25,6 +25,10 @@ const User = mongoose.Schema({
         type: Number,
         required: true
     },
+    date: {
+        type: String,
+        required: true
+    },
     token: {
         type: String,
         default: ''

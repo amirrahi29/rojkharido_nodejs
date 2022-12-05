@@ -27,6 +27,10 @@ mongoose.connection.on('error', function (err) {
 const user_route = require('./routes/UserRoute');
 app.use('/api',user_route);
 
+//contact route
+const contact_route = require('./routes/ContactRoute');
+app.use('/api',contact_route);
+
 
 
 //start server
