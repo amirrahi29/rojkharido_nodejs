@@ -35,6 +35,8 @@ const register = async (req, res) => {
         const password = req.body.password;
         const mobile = req.body.mobile;
         const type = req.body.type;
+        const image = req.body.image;
+        const isEmailVerified = req.body.isEmailVerified;
 
 
         const userCheck = await User.findOne({ "email": email });
@@ -55,52 +57,56 @@ const register = async (req, res) => {
                 password: sPassword,
                 mobile: mobile,
                 type: type,
+                image: image,
                 date: Date().toString(),
                 token: myToken,
                 isBlocked: '0',
-                isEmailVerified: '0',
+                isEmailVerified: isEmailVerified,
                 isPhoneVerified: '0',
             });
 
             const userData = user.save();
             if (userData) {
 
-                //send email
-                const transport = nodemailer.createTransport({
-                    host: 'smtp.gmail.com',
-                    port: 587,
-                    secure: false,
-                    requireTLS: true,
-                    auth: {
-                        user: config.admin_email,
-                        pass: config.admin_password
-                    }
-                });
+                if (isEmailVerified != 1) {
+                    //send email
+                    const transport = nodemailer.createTransport({
+                        host: 'smtp.gmail.com',
+                        port: 587,
+                        secure: false,
+                        requireTLS: true,
+                        auth: {
+                            user: config.admin_email,
+                            pass: config.admin_password
+                        }
+                    });
 
-                const mailOption = {
-                    from: config.admin_email,
-                    to: email,
-                    subject: `Hey ${name}, welcome to be the member of Rojkharido`,
-                    html: `Thanks for register in Rojkharido. Please click the below link to verify your account.<br> 
+                    const mailOption = {
+                        from: config.admin_email,
+                        to: email,
+                        subject: `Hey ${name}, welcome to be the member of Rojkharido`,
+                        html: `Thanks for register in Rojkharido. Please click the below link to verify your account.<br> 
                     <a href='${config.BASE_URL}emailVerified/${user.id}/${user.email}/${myToken}'>${config.BASE_URL}emailVerified/${user.id}/${user.email}/${myToken}</a><br /><br/><br /><br/>
                     <img src='https://rojkharido.com/static/media/logo.5526e878bafd14cb7ba5.png' style='width:20%;' alt='' class='img-fluid'/><br/>
                         Email: ${config.admin_email}<br/>
                         Website: ${config.BASE_URL}`
-                }
-
-                transport.sendMail(mailOption, (err, success) => {
-                    if (err) {
-                        throw err
-                    } else {
-                        console.log("Mail has been sent successfully.");
                     }
-                });
+
+                    transport.sendMail(mailOption, (err, success) => {
+                        if (err) {
+                            throw err
+                        } else {
+                            console.log("Mail has been sent successfully.");
+                        }
+                    });
+                }
 
                 const userResponse = {
                     _id: user.id,
                     name: user.name,
                     email: user.email,
                     mobile: user.mobile,
+                    image: user.image,
                     type: user.type,
                     date: user.date,
                     token: user.token,
