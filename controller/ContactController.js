@@ -35,7 +35,7 @@ const contact = async (req, res) => {
                 from: email,
                 to: config.admin_email,
                 subject: `One query raised by ${name}`,
-                html: `Hey rojkharido, Please revert him as soon as possible <br><p>Name: ${name}</p><p>Name: ${email}</p><p>Message: ${message}</p>`
+                html: `Hey rojkharido, Please revert him as soon as possible<hr/> <p>Contact Details</p><hr/><p>Name: ${name}</p><p>E-mail: ${email}</p><p>Message: ${message}</p>`
             }
 
             transport.sendMail(mailOption, (err, success) => {

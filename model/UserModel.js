@@ -29,6 +29,18 @@ const User = mongoose.Schema({
         type: String,
         required: true
     },
+    isBlocked: {
+        type: String,
+        default: ''
+    },
+    isEmailVerified: {
+        type: String,
+        default: ''
+    },
+    isPhoneVerified: {
+        type: String,
+        default: ''
+    },
     token: {
         type: String,
         default: ''
