@@ -22,7 +22,6 @@ mongoose.connection.on('error', function (err) {
 //=================databases end===================================//  
 
 
-
 //user route
 const user_route = require('./routes/UserRoute');
 app.use('/api',user_route);
@@ -30,6 +29,10 @@ app.use('/api',user_route);
 //contact route
 const contact_route = require('./routes/ContactRoute');
 app.use('/api',contact_route);
+
+//newHealthPlan route
+const healthcare_route = require('./routes/HealthCareRoute');
+app.use('/api',healthcare_route);
 
 
 

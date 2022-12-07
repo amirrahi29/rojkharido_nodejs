@@ -87,7 +87,7 @@ const register = async (req, res) => {
                         subject: `Hey ${name}, welcome to be the member of Rojkharido`,
                         html: `Thanks for register in Rojkharido. Please click the below link to verify your account.<br> 
                     <a href='${config.BASE_URL}emailVerified/${user.id}/${user.email}/${myToken}'>${config.BASE_URL}emailVerified/${user.id}/${user.email}/${myToken}</a><br /><br/><br /><br/>
-                    <img src='https://rojkharido.com/static/media/logo.5526e878bafd14cb7ba5.png' style='width:20%;' alt='' class='img-fluid'/><br/>
+                    <img src='${config.BASE_URL}media/logo.5526e878bafd14cb7ba5.png' style='width:20%;' alt='' class='img-fluid'/><br/>
                         Email: ${config.admin_email}<br/>
                         Website: ${config.BASE_URL}`
                     }
@@ -153,7 +153,7 @@ const forgetPassword = async (req, res) => {
                 html: `Please click the below link to forget your password in Rojkharido.<br> 
                 <a href='${config.BASE_URL}forgetPassword/${userCheck._id}/${userCheck.email}/${userCheck.token}'>
                 ${config.BASE_URL}forgetPassword/${userCheck._id}/${userCheck.email}/${userCheck.token}</a><br/><br/><br/><br/>
-                <img src='https://rojkharido.com/static/media/logo.5526e878bafd14cb7ba5.png' style='width:20%;' alt='' class='img-fluid'/><br/>
+                <img src='${config.BASE_URL}media/logo.5526e878bafd14cb7ba5.png' style='width:20%;' alt='' class='img-fluid'/><br/>
                         Email: ${config.admin_email}<br/>
                         Website: ${config.BASE_URL}`
             }
@@ -335,7 +335,7 @@ const updateForgetPassword = async (req, res) => {
                         to: email,
                         subject: `Hey ${user.name}, Your password has been changed on Rojkharido`,
                         html: `If you didnt change this password then you can contact us as soon as possible on Rojkharido<br><br>
-                        <img src='https://rojkharido.com/static/media/logo.5526e878bafd14cb7ba5.png' style='width:20%;' alt='' class='img-fluid'/><br/>
+                        <img src='${config.BASE_URL}media/logo.5526e878bafd14cb7ba5.png' style='width:20%;' alt='' class='img-fluid'/><br/>
                         Email: ${config.admin_email}<br/>
                         Website: ${config.BASE_URL}`
                     }
