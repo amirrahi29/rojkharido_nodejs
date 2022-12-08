@@ -86,10 +86,10 @@ const register = async (req, res) => {
                         to: email,
                         subject: `Hey ${name}, welcome to be the member of Rojkharido`,
                         html: `Thanks for register in Rojkharido. Please click the below link to verify your account.<br> 
-                    <a href='${config.BASE_URL}emailVerified/${user.id}/${user.email}/${myToken}'>${config.BASE_URL}emailVerified/${user.id}/${user.email}/${myToken}</a><br /><br/><br /><br/>
-                    <img src='${config.BASE_URL}media/logo.5526e878bafd14cb7ba5.png' style='width:20%;' alt='' class='img-fluid'/><br/>
+                    <a href='${config.BASE_URL_WEBSITE}emailVerified/${user.id}/${user.email}/${myToken}'>${config.BASE_URL_WEBSITE}emailVerified/${user.id}/${user.email}/${myToken}</a><br /><br/><br /><br/>
+                    <img src='${config.BASE_URL_WEBSITE}media/logo.5526e878bafd14cb7ba5.png' style='width:20%;' alt='' class='img-fluid'/><br/>
                         Email: ${config.admin_email}<br/>
-                        Website: ${config.BASE_URL}`
+                        Website: ${config.BASE_URL_WEBSITE}`
                     }
 
                     transport.sendMail(mailOption, (err, success) => {
@@ -151,11 +151,11 @@ const forgetPassword = async (req, res) => {
                 to: email,
                 subject: `Hey ${email}, Forget your password!`,
                 html: `Please click the below link to forget your password in Rojkharido.<br> 
-                <a href='${config.BASE_URL}forgetPassword/${userCheck._id}/${userCheck.email}/${userCheck.token}'>
-                ${config.BASE_URL}forgetPassword/${userCheck._id}/${userCheck.email}/${userCheck.token}</a><br/><br/><br/><br/>
-                <img src='${config.BASE_URL}media/logo.5526e878bafd14cb7ba5.png' style='width:20%;' alt='' class='img-fluid'/><br/>
+                <a href='${config.BASE_URL_WEBSITE}forgetPassword/${userCheck._id}/${userCheck.email}/${userCheck.token}'>
+                ${config.BASE_URL_WEBSITE}forgetPassword/${userCheck._id}/${userCheck.email}/${userCheck.token}</a><br/><br/><br/><br/>
+                <img src='${config.BASE_URL_WEBSITE}media/logo.5526e878bafd14cb7ba5.png' style='width:20%;' alt='' class='img-fluid'/><br/>
                         Email: ${config.admin_email}<br/>
-                        Website: ${config.BASE_URL}`
+                        Website: ${config.BASE_URL_WEBSITE}`
             }
 
             transport.sendMail(mailOption, (err, success) => {
@@ -212,18 +212,21 @@ const login = async (req, res) => {
                         }
                     });
 
-                    const userResponse = {
-                        _id: user._id,
-                        name: user.name,
-                        email: user.email,
-                        mobile: user.mobile,
-                        type: user.type,
-                        date: user.date,
-                        token: myToken,
+                    if (user_data) {
+                        const userResponse = {
+                            _id: user._id,
+                            name: user.name,
+                            email: user.email,
+                            mobile: user.mobile,
+                            type: user.type,
+                            date: user.date,
+                            token: myToken,
+                        }
+
+                        res.status(200).send({ success: true, msg: "Login successfull.", data: userResponse });
+                    }else{
+                        res.status(200).send({ success: false, msg: "Something went wrong, Please try again!", data: userResponse });
                     }
-
-                    res.status(200).send({ success: true, msg: "Login successfull.", data: userResponse });
-
                 } else {
                     res.status(200).send({ success: false, msg: "Invalid credentials!" });
                 }
@@ -335,9 +338,9 @@ const updateForgetPassword = async (req, res) => {
                         to: email,
                         subject: `Hey ${user.name}, Your password has been changed on Rojkharido`,
                         html: `If you didnt change this password then you can contact us as soon as possible on Rojkharido<br><br>
-                        <img src='${config.BASE_URL}media/logo.5526e878bafd14cb7ba5.png' style='width:20%;' alt='' class='img-fluid'/><br/>
+                        <img src='${config.BASE_URL_WEBSITE}media/logo.5526e878bafd14cb7ba5.png' style='width:20%;' alt='' class='img-fluid'/><br/>
                         Email: ${config.admin_email}<br/>
-                        Website: ${config.BASE_URL}`
+                        Website: ${config.BASE_URL_WEBSITE}`
                     }
 
                     transport.sendMail(mailOption, (err, success) => {

@@ -34,6 +34,10 @@ app.use('/api',contact_route);
 const healthcare_route = require('./routes/HealthCareRoute');
 app.use('/api',healthcare_route);
 
+//rojkharidoCategory route
+const rojkharido_category_route = require('./routes/RojkharidoCategoryRoute');
+app.use('/api',rojkharido_category_route);
+
 
 
 //start server

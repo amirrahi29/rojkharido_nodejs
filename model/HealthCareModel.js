@@ -75,4 +75,4 @@ const HealthCare = mongoose.Schema({
     },
 });
 
-module.exports = mongoose.model("HealthCare", HealthCare);
+module.exports = mongoose.model("HealthCarePlans", HealthCare);

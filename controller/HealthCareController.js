@@ -27,7 +27,7 @@ const newHealthPlan = async (req, res) => {
                 amount: amount,
                 planTitle: planDetail.title,
                 planContent: planDetail.content,
-                planImage: config.BASE_URL + planDetail.image,
+                planImage: config.BASE_URL_WEBSITE + planDetail.image,
                 planPrice: planDetail.price,
                 currency: currency,
                 couponAppliedDiscount: couponAppliedDiscount,
@@ -76,9 +76,9 @@ const newHealthPlan = async (req, res) => {
                     <hr/>
                     <h3>Total Amount: ₹ ${totalAmount}.00</h3>
                     <br/> <br/> <br/> <br/>
-                        <img src='${config.BASE_URL}static/media/logo.5526e878bafd14cb7ba5.png' style='width:100px; height:100px;' alt='' class='img-fluid'/><br/>
+                        <img src='${config.BASE_URL_WEBSITE}static/media/logo.5526e878bafd14cb7ba5.png' style='width:100px; height:100px;' alt='' class='img-fluid'/><br/>
                         Email: ${config.admin_email}<br/>
-                        Website: ${config.BASE_URL}
+                        Website: ${config.BASE_URL_WEBSITE}
                     `
                 }
 
