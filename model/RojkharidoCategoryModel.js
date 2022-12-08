@@ -13,6 +13,10 @@ const RojkharidoCategory = mongoose.Schema({
         type:String,
         required:true
     },
+    route:{
+        type:String,
+        required:true
+    },
     date: {
         type: String,
         required: true

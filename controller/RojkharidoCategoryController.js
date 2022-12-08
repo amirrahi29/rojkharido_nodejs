@@ -7,6 +7,7 @@ const addRojkharidoCategory = async (req, res) => {
         const title = req.body.title;
         const description = req.body.description;
         const rojkharido_category_image = req.file.filename;
+        const route = req.body.route;
 
         const category = await RojkharidoCategoryModel.findOne({ "title": title });
         if (!category) {
@@ -14,6 +15,7 @@ const addRojkharidoCategory = async (req, res) => {
                 title: title,
                 description: description,
                 rojkharido_category_image: rojkharido_category_image,
+                route: route,
                 date: Date().toString(),
             });
 
@@ -46,6 +48,7 @@ const allRojkharidoCategory = async (req, res) => {
                     title: category[index].title,
                     description: category[index].description,
                     rojkharido_category_image: config.BASE_URL+"RojkharidoCategoryImages/"+category[index].rojkharido_category_image,
+                    route: category[index].route,
                     date: category[index].date,
                 });
             }
