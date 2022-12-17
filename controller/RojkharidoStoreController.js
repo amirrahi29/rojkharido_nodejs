@@ -50,6 +50,10 @@ const addRojkharidoStore = async (req, res) => {
         const storeType = req.body.storeType;
         const isMobileVerified = req.body.isMobileVerified;
         const isEmailVerified = req.body.isEmailVerified;
+        const paymentPurpose = req.body.paymentPurpose;
+        const planMonth = req.body.planMonth;
+        const paymentStatus = req.body.paymentStatus;
+        const paymentId = req.body.paymentId;
 
         const store = await RojkharidoStoreModel.findOne({ "storeEmail": storeEmail });
         if (!store) {
@@ -82,8 +86,14 @@ const addRojkharidoStore = async (req, res) => {
                 storeType: storeType,
                 isMobileVerified: isMobileVerified,
                 isEmailVerified: isEmailVerified,
+                paymentPurpose: paymentPurpose,
+                planMonth: planMonth,
+                paymentStatus: paymentStatus,
+                paymentId: paymentId,
+                paymentDate: Date().toString(),
                 date: Date().toString()
             });
+
             const storeSaveData = await storeData.save();
             if (storeSaveData) {
 
