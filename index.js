@@ -38,9 +38,17 @@ app.use('/api',healthcare_route);
 const rojkharido_category_route = require('./routes/RojkharidoCategoryRoute');
 app.use('/api',rojkharido_category_route);
 
+//travel route
+const travel_route = require('./routes/TravelRoute');
+app.use('/api',travel_route);
+
+//store route
+const store_route = require('./routes/RojkharidoStoreRoute');
+app.use('/api',store_route);
+
 
 
 //start server
 app.listen(process.env.PORT || 1000, function () {
-    console.log("Server is ready");
+    console.log(`Server is ready on ${1000}`);
 });

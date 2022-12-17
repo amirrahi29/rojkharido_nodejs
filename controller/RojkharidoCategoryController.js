@@ -56,7 +56,7 @@ const allRojkharidoCategory = async (req, res) => {
             res.status(200).send({ success: true, msg: "All Rojkharido Categories", data: allCategories });
 
         } else {
-            res.status(200).send({ success: false, msg: "This category is already exists!" });
+            res.status(200).send({ success: false, msg: "No categories found!" });
         }
     } catch (error) {
         res.status(400).send({ success: false, msg: error.message });
