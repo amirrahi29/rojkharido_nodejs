@@ -1,4 +1,5 @@
 const RojkharidoStoreModel = require('../model/RojkharidoStoreModel');
+const RojkharidoStorePaymentHistoryModel = require('../model/RojkharidoStorePaymentHistoryModel');
 const config = require('../config/config');
 const bcryptjs = require('bcryptjs');
 const nodemailer = require('nodemailer');
@@ -7,10 +8,8 @@ const randomString = require('randomstring');
 
 const securePassword = async (password) => {
     try {
-
         const hPassword = await bcryptjs.hash(password, 10);
         return hPassword;
-
     } catch (error) {
         res.status(400).send({ success: false, msg: error.message });
     }
@@ -50,10 +49,14 @@ const addRojkharidoStore = async (req, res) => {
         const storeType = req.body.storeType;
         const isMobileVerified = req.body.isMobileVerified;
         const isEmailVerified = req.body.isEmailVerified;
+
         const paymentPurpose = req.body.paymentPurpose;
         const planMonth = req.body.planMonth;
         const paymentStatus = req.body.paymentStatus;
         const paymentId = req.body.paymentId;
+        const amount = req.body.amount;
+        const tax = req.body.tax;
+        const totalAmount = req.body.totalAmount;
 
         const store = await RojkharidoStoreModel.findOne({ "storeEmail": storeEmail });
         if (!store) {
@@ -86,16 +89,28 @@ const addRojkharidoStore = async (req, res) => {
                 storeType: storeType,
                 isMobileVerified: isMobileVerified,
                 isEmailVerified: isEmailVerified,
-                paymentPurpose: paymentPurpose,
-                planMonth: planMonth,
-                paymentStatus: paymentStatus,
-                paymentId: paymentId,
-                paymentDate: Date().toString(),
                 date: Date().toString()
             });
 
             const storeSaveData = await storeData.save();
             if (storeSaveData) {
+                
+                //payment history save start
+                const storePayment = new RojkharidoStorePaymentHistoryModel({
+                    storeId: storeSaveData._id,
+                    type: storeSaveData.storeType,
+                    paymentPurpose: paymentPurpose,
+                    planMonth: planMonth,
+                    paymentStatus: paymentStatus,
+                    paymentId: paymentId,
+                    amount: amount,
+                    tax: tax,
+                    totalAmount: totalAmount,
+                    paymentDate: Date().toString(),
+                    date: Date().toString()
+                });
+                await storePayment.save();
+                //payment history save end
 
                 //send email
                 const transport = nodemailer.createTransport({

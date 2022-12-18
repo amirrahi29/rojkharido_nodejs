@@ -81,26 +81,6 @@ const AddStore = mongoose.Schema({
         type: String,
         required: true
     },
-    paymentId: {
-        type: String,
-        required: true
-    },
-    paymentStatus: {
-        type: String,
-        required: true
-    },
-    planMonth: {
-        type: String,
-        required: true
-    },
-    paymentPurpose: {
-        type: String,
-        required: true
-    },
-    paymentDate: {
-        type: String,
-        required: true
-    },
     date: {
         type: String,
         required: true
