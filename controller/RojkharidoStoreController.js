@@ -112,6 +112,9 @@ const addRojkharidoStore = async (req, res) => {
                 await storePayment.save();
                 //payment history save end
 
+
+                res.status(200).send({ success: true, msg: `Welcome ${storeName}, Thank your for register your store with Rojkharido, We have sent you all details related to your store registration into your email on ${storeEmail}`, data: storeSaveData });
+
                 //send email
                 const transport = nodemailer.createTransport({
                     host: 'smtp.gmail.com',
