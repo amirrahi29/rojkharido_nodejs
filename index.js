@@ -7,6 +7,9 @@ app.use(cors());
 //image
 app.use(express.static('public'));
 
+// //access of images
+// app.use("/public",express.static('public'));
+
 //=================all databases start===================================//
 // restaurant_grocery database
 const mongoose = require("mongoose");
@@ -45,6 +48,10 @@ app.use('/api',travel_route);
 //store route
 const store_route = require('./routes/RojkharidoStoreRoute');
 app.use('/api',store_route);
+
+//product route
+const product_route = require('./routes/RojkharidoProductRoute');
+app.use('/api',product_route);
 
 
 
