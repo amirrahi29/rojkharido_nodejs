@@ -5,6 +5,10 @@ const RojkharidoProductModel = mongoose.Schema({
         type: String,
         required: true
     },
+    sub_category_id: {
+        type: String,
+        required: true
+    },
     store_id: {
         type: String,
         required: true

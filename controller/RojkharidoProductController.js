@@ -3,6 +3,7 @@ const ProductModel = require('../model/RojkharidoProductModel');
 const addProduct = async (req,res)=>{
 
     const category_id = req.body.category_id;
+    const sub_category_id = req.body.sub_category_id;
     const store_id = req.body.store_id;
     const name = req.body.name;
     const price = req.body.price;
@@ -20,6 +21,7 @@ const addProduct = async (req,res)=>{
 
         var product = new ProductModel({
             category_id:category_id,
+            sub_category_id:sub_category_id,
             store_id:store_id,
             name:name,
             price:price,

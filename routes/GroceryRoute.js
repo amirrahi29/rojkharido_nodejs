@@ -26,10 +26,8 @@ const storage = multer.diskStorage({
 
 const upload = multer({storage:storage});
 
-
 //controller
 const groceryCategoryController = require('../controller/GroceryCategoryController');
-
 
 //api
 grocery_route.post('/addGroceryCategory',upload.single('grocery_category_image'), groceryCategoryController.addGroceryCategory);

@@ -30,7 +30,6 @@ const upload = multer({storage:storage});
 //controller
 const restaurantCategoryController = require('../controller/RestaurantCategoryController');
 
-
 //api
 restaurant_route.post('/addRestaurantCategory',upload.single('restaurant_category_image'), restaurantCategoryController.addRestaurantCategory);
 restaurant_route.get('/allRestaurantCategory', restaurantCategoryController.allRestaurantCategory);
