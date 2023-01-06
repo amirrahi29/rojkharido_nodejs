@@ -53,6 +53,14 @@ app.use('/api',store_route);
 const product_route = require('./routes/RojkharidoProductRoute');
 app.use('/api',product_route);
 
+//restaurant route
+const restaurant_route = require('./routes/RestaurantRoute');
+app.use('/api',restaurant_route);
+
+//grocery route
+const grocery_route = require('./routes/GroceryRoute');
+app.use('/api',grocery_route);
+
 
 
 //start server
