@@ -35,7 +35,6 @@ const addGroceryCategory = async (req, res) => {
 }
 
 const allGroceryCategory = async (req, res) => {
-
     try {
         const category = await GroceryCategoryModel.find();
         if (category) {
@@ -61,7 +60,6 @@ const allGroceryCategory = async (req, res) => {
     } catch (error) {
         res.status(400).send({ success: false, msg: error.message });
     }
-
 }
 
 module.exports = {

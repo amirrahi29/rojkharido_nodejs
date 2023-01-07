@@ -21,6 +21,14 @@ const RojkharidoProductModel = mongoose.Schema({
         type: String,
         required: true
     },
+    weight: {
+        type: Array,
+        required: true
+    },
+    weight_type: {
+        type: String,
+        required: true
+    },
     stock_count: {
         type: String,
         required: true //number of products available in stocks 
@@ -32,10 +40,6 @@ const RojkharidoProductModel = mongoose.Schema({
     tax: {
         type: String,
         required: true
-    },
-    type: {
-        type: String,
-        default: '0' //0 means non-veg
     },
     images:{
         type:Array,
