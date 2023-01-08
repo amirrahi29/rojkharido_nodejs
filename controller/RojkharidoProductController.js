@@ -53,7 +53,7 @@ const addProduct = async (req,res)=>{
 
 }
 
-const allProducts = async (req, res) => {
+const allnearestStoresProducts = async (req, res) => {
 
     const latitude = req.body.latitude;
     const longitude = req.body.longitude;
@@ -62,8 +62,6 @@ const allProducts = async (req, res) => {
     const limit = req.body.limit;
 
     try {
-        var sendData = [];
-
         let storeData = await RojkharidoStoreModel.aggregate([
             {
             $geoNear: {
@@ -77,12 +75,12 @@ const allProducts = async (req, res) => {
             }
             }
         ]).limit(limit);
-
+        var productData = [];
         if(storeData.length>0){
             
             for(let i = 0; i<storeData.length; i++){
                 if(storeData[i].storeType === type){
-                var productData = [];
+                
                 var store_id = storeData[i]['_id'].toString();
                 var productPro = await ProductModel.find({store_id:store_id});
                 if(productPro.length>0){
@@ -101,21 +99,18 @@ const allProducts = async (req, res) => {
                             tax: productPro[j].tax,
                             type: productPro[j].type,
                             storeName: storeData[i]['storeName'],
-                            image: config.BASE_URL+"RojkharidoProductImages/"+productPro[j].images,
+                            image: config.BASE_URL+"RojkharidoProductImages/"+productPro[j].images[0],
                             date: productPro[j].date,
                         });
                     }
                 }
-                sendData.push({
-                    "store":storeData[i]['storeName'],
-                    "product":productData
-                });
+                
               }
             }
-            res.status(200).send({success:true,msg:"Product Details",data:sendData});
+            res.status(200).send({success:true,msg:"All products",data:productData});
 
         }else{
-            res.status(200).send({success:false,msg:"No Products!"});
+            res.status(200).send({success:false,msg:"No Products!",data:productData});
         }
         
     } catch (error) {
@@ -125,5 +120,5 @@ const allProducts = async (req, res) => {
 
 module.exports = {
     addProduct,
-    allProducts
+    allnearestStoresProducts
 }
