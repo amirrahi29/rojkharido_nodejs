@@ -1,0 +1,111 @@
+[{
+  "_id": {
+    "$oid": "63b7edf083c5679b4982da32"
+  },
+  "title": "Bakery & Breads",
+  "description": "Bakery & Breads",
+  "grocery_category_image": "1672998384410-bakery_and_breads.png",
+  "route": "/groceryBreakAndBreads",
+  "date": "Fri Jan 06 2023 15:16:24 GMT+0530 (India Standard Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63b7ee2a83c5679b4982da35"
+  },
+  "title": "Cereals & Breakfast Foods",
+  "description": "Cereals & Breakfast Foods",
+  "grocery_category_image": "1672998442448-cereals_and_breakfast_foods.png",
+  "route": "/groceryCerealsAndBreakFastFoods",
+  "date": "Fri Jan 06 2023 15:17:22 GMT+0530 (India Standard Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63b7ee4f83c5679b4982da38"
+  },
+  "title": "Dairy, Cheese & Eggs",
+  "description": "Dairy, Cheese & Eggs",
+  "grocery_category_image": "1672998479596-dairy-cheese-and-eggs.png",
+  "route": "/groceryDairyCheeseAndEggs",
+  "date": "Fri Jan 06 2023 15:17:59 GMT+0530 (India Standard Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63b7ee6e83c5679b4982da3b"
+  },
+  "title": "Drinks",
+  "description": "Drinks",
+  "grocery_category_image": "1672998510256-drinks.png",
+  "route": "/groceryDrinks",
+  "date": "Fri Jan 06 2023 15:18:30 GMT+0530 (India Standard Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63b7ee8583c5679b4982da3e"
+  },
+  "title": "Frozen Foods",
+  "description": "Frozen Foods",
+  "grocery_category_image": "1672998533356-frozen_foods.png",
+  "route": "/groceryFrozenFoods",
+  "date": "Fri Jan 06 2023 15:18:53 GMT+0530 (India Standard Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63b7eea483c5679b4982da41"
+  },
+  "title": "Meats & Sea Foods",
+  "description": "Meats & Sea Foods",
+  "grocery_category_image": "1672998564107-meats-and-seafood.png",
+  "route": "/groceryMeatsAndSeaFoods",
+  "date": "Fri Jan 06 2023 15:19:24 GMT+0530 (India Standard Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63b7eedb83c5679b4982da44"
+  },
+  "title": "Oil Sauces Salad Dressing And Condiments",
+  "description": "Oil Sauces Salad Dressing And Condiments",
+  "grocery_category_image": "1672998619751-oil-sauces-salad-dressing-and-condiments.png",
+  "route": "/groceryOilSaucesSaladDressingAndCondiments",
+  "date": "Fri Jan 06 2023 15:20:19 GMT+0530 (India Standard Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63b7eef283c5679b4982da47"
+  },
+  "title": "Pasta And Rice",
+  "description": "Pasta And Rice",
+  "grocery_category_image": "1672998642705-pasta-and-rice.png",
+  "route": "/groceryPastaAndRice",
+  "date": "Fri Jan 06 2023 15:20:42 GMT+0530 (India Standard Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63b7ef0b83c5679b4982da4a"
+  },
+  "title": "Produce",
+  "description": "Produce",
+  "grocery_category_image": "1672998667367-Produce.png",
+  "route": "/groceryProduce",
+  "date": "Fri Jan 06 2023 15:21:07 GMT+0530 (India Standard Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63b7ef2483c5679b4982da4d"
+  },
+  "title": "Snacks And Crackers",
+  "description": "Snacks And Crackers",
+  "grocery_category_image": "1672998692077-snacks-and-crackers.png",
+  "route": "/grocerySnacksAndCrackers",
+  "date": "Fri Jan 06 2023 15:21:32 GMT+0530 (India Standard Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63b7ef4883c5679b4982da50"
+  },
+  "title": "Soups And Canned Goods",
+  "description": "Soups And Canned Goods",
+  "grocery_category_image": "1672998728292-soups-and-canned-goods.png",
+  "route": "/grocerySoupsAndCannedGoods",
+  "date": "Fri Jan 06 2023 15:22:08 GMT+0530 (India Standard Time)",
+  "__v": 0
+}]

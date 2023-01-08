@@ -1,0 +1,41 @@
+[{
+  "_id": {
+    "$oid": "63b7ed0a83c5679b4982da26"
+  },
+  "title": "Veg",
+  "description": "Veg",
+  "restaurant_category_image": "1672998154009-d5715d552117dfa837c13a377fdadc38-removebg-preview.png",
+  "route": "/restaurantVeg",
+  "date": "Fri Jan 06 2023 15:12:34 GMT+0530 (India Standard Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63b7ed4583c5679b4982da29"
+  },
+  "title": "Non-Veg",
+  "description": "Non-Veg",
+  "restaurant_category_image": "1672998213404-non-veg-removebg-preview.png",
+  "route": "/restaurantNonVeg",
+  "date": "Fri Jan 06 2023 15:13:33 GMT+0530 (India Standard Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63b7ed7483c5679b4982da2c"
+  },
+  "title": "Self Pickup",
+  "description": "Self Pickup",
+  "restaurant_category_image": "1672998260122-self_pickup-removebg-preview.png",
+  "route": "/restaurantSelfPickUp",
+  "date": "Fri Jan 06 2023 15:14:20 GMT+0530 (India Standard Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63b7ed9283c5679b4982da2f"
+  },
+  "title": "Table Booking",
+  "description": "Table Booking",
+  "restaurant_category_image": "1672998290753-table-booking-removebg-preview.png",
+  "route": "/restaurantTableBooking",
+  "date": "Fri Jan 06 2023 15:14:50 GMT+0530 (India Standard Time)",
+  "__v": 0
+}]

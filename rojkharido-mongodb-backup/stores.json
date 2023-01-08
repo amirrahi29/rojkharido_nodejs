@@ -1,0 +1,1915 @@
+[{
+  "_id": {
+    "$oid": "63a2e268d6a3529c1660f58e"
+  },
+  "storeImage": "1671619176507-one.png",
+  "storeName": "Say Organic",
+  "storeMobile": "9999999999",
+  "storeEmail": "sayorganic@gmail.com",
+  "storePassword": "$2a$10$E8evLbNr5MHV7A58jHlede1USyTehfjrWTP7QmRlreMShRdloCuSi",
+  "deliveryCharge": "10",
+  "storeTiming": "10 am to 10 pm",
+  "pincode": "110077",
+  "estimatedDeliveryTime": "35 min",
+  "otherTax": "49",
+  "landmark": "Near petrol pump",
+  "streetAddress": "Supermaket delhi",
+  "fullAddress": "New Delhi New Delhi Delhi, India, Pincode: 110077",
+  "latitude": "28.5709904",
+  "longitude": "77.07184079999999",
+  "addedFrom": "WEBSITE",
+  "addedBy": "SELF",
+  "storeType": "GROCERY",
+  "isMobileVerified": "0",
+  "isEmailVerified": "0",
+  "date": "Wed Dec 21 2022 16:09:36 GMT+0530 (India Standard Time)",
+  "__v": 0,
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      77.07184079999999,
+      28.5709904
+    ]
+  }
+},{
+  "_id": {
+    "$oid": "63a2e31ad6a3529c1660f59b"
+  },
+  "storeImage": "1671619353824-two.png",
+  "storeName": "Kansal General Store",
+  "storeMobile": "8888888888",
+  "storeEmail": "kansal_genral_store@gmail.com",
+  "storePassword": "$2a$10$ig965GyzyV9Pb9zMMPSTeOscSENuojwd8cn4jI1NpAsZMxQGFzFT.",
+  "deliveryCharge": "8",
+  "storeTiming": "10 am to 5 pm",
+  "pincode": "110013",
+  "estimatedDeliveryTime": "55 min",
+  "otherTax": "30",
+  "landmark": "dairy milk",
+  "streetAddress": "dwarka sector 8",
+  "fullAddress": "New Delhi New Delhi Delhi, India, Pincode: 110013",
+  "latitude": "28.5891197",
+  "longitude": "77.2568426",
+  "addedFrom": "WEBSITE",
+  "addedBy": "SELF",
+  "storeType": "GROCERY",
+  "isMobileVerified": "0",
+  "isEmailVerified": "0",
+  "date": "Wed Dec 21 2022 16:12:34 GMT+0530 (India Standard Time)",
+  "__v": 0,
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      77.2568426,
+      28.5891197
+    ]
+  }
+},{
+  "_id": {
+    "$oid": "63a2e3efd6a3529c1660f5a8"
+  },
+  "storeImage": "1671619567190-three.png",
+  "storeName": "J.J. General Store",
+  "storeMobile": "8888888888",
+  "storeEmail": "jjgeneralstore@gmail.com",
+  "storePassword": "$2a$10$AIW9EEXPK0VClMLtH0cbn.Zn/eHL6v/oFUNB5gYsS9E3fPOWfjWZ.",
+  "deliveryCharge": "9",
+  "storeTiming": "9 am to 6 pm",
+  "pincode": "201301",
+  "estimatedDeliveryTime": "25 min",
+  "otherTax": "20",
+  "landmark": "gaw mata mandir",
+  "streetAddress": "noida sector 62",
+  "fullAddress": "Noida Noida Uttar Pradesh, India, Pincode: 201301",
+  "latitude": "28.5821195",
+  "longitude": "77.3266991",
+  "addedFrom": "WEBSITE",
+  "addedBy": "SELF",
+  "storeType": "GROCERY",
+  "isMobileVerified": "0",
+  "isEmailVerified": "0",
+  "date": "Wed Dec 21 2022 16:16:07 GMT+0530 (India Standard Time)",
+  "__v": 0,
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      77.3266991,
+      28.5821195
+    ]
+  }
+},{
+  "_id": {
+    "$oid": "63a2e496d6a3529c1660f5b5"
+  },
+  "storeImage": "1671619734396-four.png",
+  "storeName": "Sengar Kirana Store",
+  "storeMobile": "8888888888",
+  "storeEmail": "sengar_kirana_store@gmail.com",
+  "storePassword": "$2a$10$Mzelss7ccUjxSsVP.saLCepRpc2.rRtHi8rNEjuU59TD.x9bCaIZq",
+  "deliveryCharge": "10",
+  "storeTiming": "10 am to 8 pm",
+  "pincode": "201309",
+  "estimatedDeliveryTime": "35 min",
+  "otherTax": "27",
+  "landmark": "Mamura",
+  "streetAddress": "Noida Electronic City",
+  "fullAddress": "Noida Noida Uttar Pradesh, India, Pincode: 201309",
+  "latitude": "28.6197948",
+  "longitude": "77.3611549",
+  "addedFrom": "WEBSITE",
+  "addedBy": "SELF",
+  "storeType": "GROCERY",
+  "isMobileVerified": "0",
+  "isEmailVerified": "0",
+  "date": "Wed Dec 21 2022 16:18:54 GMT+0530 (India Standard Time)",
+  "__v": 0,
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      77.3611549,
+      28.6197948
+    ]
+  }
+},{
+  "_id": {
+    "$oid": "63a2e52ed6a3529c1660f5c2"
+  },
+  "storeImage": "1671619885926-five.png",
+  "storeName": "Indian Store",
+  "storeMobile": "7777777777",
+  "storeEmail": "indian_store@gmail.com",
+  "storePassword": "$2a$10$wYq0UsA3OlRFynNqRNEO9OB7x82uLyW69xDWHc/qY3XHIbMCDpLnu",
+  "deliveryCharge": "7",
+  "storeTiming": "10 am to 7 pm",
+  "pincode": "110077",
+  "estimatedDeliveryTime": "30 min",
+  "otherTax": "45",
+  "landmark": "dwarka sector 7",
+  "streetAddress": "Dwarka Delhi",
+  "fullAddress": "New Delhi New Delhi Delhi, India, Pincode: 110077",
+  "latitude": "28.5709904",
+  "longitude": "77.07184079999999",
+  "addedFrom": "WEBSITE",
+  "addedBy": "SELF",
+  "storeType": "GROCERY",
+  "isMobileVerified": "0",
+  "isEmailVerified": "0",
+  "date": "Wed Dec 21 2022 16:21:26 GMT+0530 (India Standard Time)",
+  "__v": 0,
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      77.07184079999999,
+      28.5709904
+    ]
+  }
+},{
+  "_id": {
+    "$oid": "63a2e5b0d6a3529c1660f5cf"
+  },
+  "storeImage": "1671620016285-six.png",
+  "storeName": "Urban Super Bazar",
+  "storeMobile": "9999999999",
+  "storeEmail": "urban_super_bazar@gmail.com",
+  "storePassword": "$2a$10$rg4vTPA6OZZS4TIoa14kL.bVXhElwN0VWM/lXY2sg74No2/By9Ufy",
+  "deliveryCharge": "15",
+  "storeTiming": "8 am to 5 pm",
+  "pincode": "201309",
+  "estimatedDeliveryTime": "40 min",
+  "otherTax": "45",
+  "landmark": "B Block",
+  "streetAddress": "Noida Sector 62",
+  "fullAddress": "Noida Noida Uttar Pradesh, India, Pincode: 201309",
+  "latitude": "28.6197948",
+  "longitude": "77.3611549",
+  "addedFrom": "WEBSITE",
+  "addedBy": "SELF",
+  "storeType": "GROCERY",
+  "isMobileVerified": "0",
+  "isEmailVerified": "0",
+  "date": "Wed Dec 21 2022 16:23:36 GMT+0530 (India Standard Time)",
+  "__v": 0,
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      77.3611549,
+      28.6197948
+    ]
+  }
+},{
+  "_id": {
+    "$oid": "63a2e63ad6a3529c1660f5dc"
+  },
+  "storeImage": "1671620154768-seven.png",
+  "storeName": "Balaji Big Store",
+  "storeMobile": "6666666666",
+  "storeEmail": "balaji_big_store@gmail.com",
+  "storePassword": "$2a$10$.NY0E6V97wlMNuWmpvsXW.OY1Dr4nqmgf6zvrSDmZ8mToFTyH3CNS",
+  "deliveryCharge": "12",
+  "storeTiming": "11 am to 6 pm",
+  "pincode": "201301",
+  "estimatedDeliveryTime": "60 min",
+  "otherTax": "35",
+  "landmark": "Fortis Hospital",
+  "streetAddress": "Noida Sector 62",
+  "fullAddress": "Noida Noida Uttar Pradesh, India, Pincode: 201301",
+  "latitude": "28.5821195",
+  "longitude": "77.3266991",
+  "addedFrom": "WEBSITE",
+  "addedBy": "SELF",
+  "storeType": "GROCERY",
+  "isMobileVerified": "0",
+  "isEmailVerified": "0",
+  "date": "Wed Dec 21 2022 16:25:54 GMT+0530 (India Standard Time)",
+  "__v": 0,
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      77.3266991,
+      28.5821195
+    ]
+  }
+},{
+  "_id": {
+    "$oid": "63a2e6f0d6a3529c1660f5e9"
+  },
+  "storeImage": "1671620336294-eight.png",
+  "storeName": "ANSARI GENRAL STORE",
+  "storeMobile": "8888888888",
+  "storeEmail": "ansari_general_store@gmail.com",
+  "storePassword": "$2a$10$BRJ/Cjqjlos19UKJ23boveIOzGBJLAX6620WxTi5q68dCKwc0pqe.",
+  "deliveryCharge": "13",
+  "storeTiming": "10 to 8 pm",
+  "pincode": "201309",
+  "estimatedDeliveryTime": "55 min",
+  "otherTax": "40",
+  "landmark": "Gautam Buddha Nagar",
+  "streetAddress": "Noida Sector 62",
+  "fullAddress": "Noida Noida Uttar Pradesh, India, Pincode: 201309",
+  "latitude": "28.6197948",
+  "longitude": "77.3611549",
+  "addedFrom": "WEBSITE",
+  "addedBy": "SELF",
+  "storeType": "GROCERY",
+  "isMobileVerified": "0",
+  "isEmailVerified": "0",
+  "date": "Wed Dec 21 2022 16:28:56 GMT+0530 (India Standard Time)",
+  "__v": 0,
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      77.3611549,
+      28.6197948
+    ]
+  }
+},{
+  "_id": {
+    "$oid": "63a2e774d6a3529c1660f5f6"
+  },
+  "storeImage": "1671620468888-nine.png",
+  "storeName": "Ruchi General Store",
+  "storeMobile": "7777777777",
+  "storeEmail": "ruchi_general_store@gmail.com",
+  "storePassword": "$2a$10$CeGfg7L/S53rL8HKlo4z0eb4/z/gax1w0I9Jey1VC4lnoNeZRDv7q",
+  "deliveryCharge": "10",
+  "storeTiming": "9 am to 7 pm",
+  "pincode": "110013",
+  "estimatedDeliveryTime": "25 min",
+  "otherTax": "55",
+  "landmark": "Near Railway Station",
+  "streetAddress": "C3 Nizamuddin",
+  "fullAddress": "New Delhi New Delhi Delhi, India, Pincode: 110013",
+  "latitude": "28.5891197",
+  "longitude": "77.2568426",
+  "addedFrom": "WEBSITE",
+  "addedBy": "SELF",
+  "storeType": "GROCERY",
+  "isMobileVerified": "0",
+  "isEmailVerified": "0",
+  "date": "Wed Dec 21 2022 16:31:08 GMT+0530 (India Standard Time)",
+  "__v": 0,
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      77.2568426,
+      28.5891197
+    ]
+  }
+},{
+  "_id": {
+    "$oid": "63a2e9c9d6a3529c1660f603"
+  },
+  "storeImage": "1671621065706-eleven.png",
+  "storeName": "A. P grocery store",
+  "storeMobile": "7777777777",
+  "storeEmail": "ap_grocery_store@gmail.com",
+  "storePassword": "$2a$10$QFpdKDm/9yJK040b2fE6NuUs9pYkGzxr5DkVOJRszbe46E4qiN8O.",
+  "deliveryCharge": "8",
+  "storeTiming": "9 am to 7 pm",
+  "pincode": "201301",
+  "estimatedDeliveryTime": "25 min",
+  "otherTax": "65",
+  "landmark": "Block B ",
+  "streetAddress": "Gautam Buddha Nagar",
+  "fullAddress": "Noida Noida Uttar Pradesh, India, Pincode: 201301",
+  "latitude": "28.5821195",
+  "longitude": "77.3266991",
+  "addedFrom": "WEBSITE",
+  "addedBy": "SELF",
+  "storeType": "GROCERY",
+  "isMobileVerified": "0",
+  "isEmailVerified": "0",
+  "date": "Wed Dec 21 2022 16:41:05 GMT+0530 (India Standard Time)",
+  "__v": 0,
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      77.3266991,
+      28.5821195
+    ]
+  }
+},{
+  "_id": {
+    "$oid": "63a2ea59d6a3529c1660f610"
+  },
+  "storeImage": "1671621209194-twelve.png",
+  "storeName": "Pankaj Grossary Store",
+  "storeMobile": "8888888888",
+  "storeEmail": "pankaj_grocery_store@gmail.com",
+  "storePassword": "$2a$10$NwYUwm5UF3coQ5gGwpWl0e3g3qToed1/1DRMT.ZLWO2wvU.mkOdlW",
+  "deliveryCharge": "11",
+  "storeTiming": "10 am to 5 pm",
+  "pincode": "110077",
+  "estimatedDeliveryTime": "40 min",
+  "otherTax": "20",
+  "landmark": "Dwarka",
+  "streetAddress": "Dwarka Sector 8",
+  "fullAddress": "New Delhi New Delhi Delhi, India, Pincode: 110077",
+  "latitude": "28.5709904",
+  "longitude": "77.07184079999999",
+  "addedFrom": "WEBSITE",
+  "addedBy": "SELF",
+  "storeType": "GROCERY",
+  "isMobileVerified": "0",
+  "isEmailVerified": "0",
+  "date": "Wed Dec 21 2022 16:43:29 GMT+0530 (India Standard Time)",
+  "__v": 0,
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      77.07184079999999,
+      28.5709904
+    ]
+  }
+},{
+  "_id": {
+    "$oid": "63a2eacdd6a3529c1660f61d"
+  },
+  "storeImage": "1671621325070-thirteen.png",
+  "storeName": "Amit Generel Store",
+  "storeMobile": "6666666666",
+  "storeEmail": "amit_general_store@gmail.com",
+  "storePassword": "$2a$10$953WEgBgee8Uule0ZDwB4ugvzcWVl7ag9MX2rV/96pOa8RqB8SLd.",
+  "deliveryCharge": "12",
+  "storeTiming": "10 am to 9 pm",
+  "pincode": "110013",
+  "estimatedDeliveryTime": "50 min",
+  "otherTax": "30",
+  "landmark": "Near Railway Station",
+  "streetAddress": "Nizamuddin Delhi",
+  "fullAddress": "New Delhi New Delhi Delhi, India, Pincode: 110013",
+  "latitude": "28.5891197",
+  "longitude": "77.2568426",
+  "addedFrom": "WEBSITE",
+  "addedBy": "SELF",
+  "storeType": "GROCERY",
+  "isMobileVerified": "0",
+  "isEmailVerified": "0",
+  "date": "Wed Dec 21 2022 16:45:25 GMT+0530 (India Standard Time)",
+  "__v": 0,
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      77.2568426,
+      28.5891197
+    ]
+  }
+},{
+  "_id": {
+    "$oid": "63a2ebc0d6a3529c1660f62a"
+  },
+  "storeImage": "1671621568319-fourteen.png",
+  "storeName": "Vikas Grocery Store",
+  "storeMobile": "5555555555",
+  "storeEmail": "vikash_grocery_store@gmail.com",
+  "storePassword": "$2a$10$hmkT6iSPEA0oacc3TBBEye3o6xKMGs1Dz4FOfng1H1EEHuZGt1Nhu",
+  "deliveryCharge": "14",
+  "storeTiming": "11 am to 10 pm",
+  "pincode": "201301",
+  "estimatedDeliveryTime": "40 min",
+  "otherTax": "45",
+  "landmark": "Korha Colony",
+  "streetAddress": "Noida Sector 62",
+  "fullAddress": "Noida Noida Uttar Pradesh, India, Pincode: 201301",
+  "latitude": "28.5821195",
+  "longitude": "77.3266991",
+  "addedFrom": "WEBSITE",
+  "addedBy": "SELF",
+  "storeType": "GROCERY",
+  "isMobileVerified": "0",
+  "isEmailVerified": "0",
+  "date": "Wed Dec 21 2022 16:49:28 GMT+0530 (India Standard Time)",
+  "__v": 0,
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      77.3266991,
+      28.5821195
+    ]
+  }
+},{
+  "_id": {
+    "$oid": "63a2ec52d6a3529c1660f637"
+  },
+  "storeImage": "1671621714093-fifteen.png",
+  "storeName": "All in one genaral store",
+  "storeMobile": "7777777777",
+  "storeEmail": "all_in_one_general_store@gmail.com",
+  "storePassword": "$2a$10$1xtQd4UmQtN2jfuCBOaDbOMdOAcOoDsWtUtBBKZi.N23.50NdEHoy",
+  "deliveryCharge": "10",
+  "storeTiming": "9 am to 5 pm",
+  "pincode": "110013",
+  "estimatedDeliveryTime": "35 min",
+  "otherTax": "15",
+  "landmark": "Near metro",
+  "streetAddress": "Nizamuddin",
+  "fullAddress": "New Delhi New Delhi Delhi, India, Pincode: 110013",
+  "latitude": "28.5891197",
+  "longitude": "77.2568426",
+  "addedFrom": "WEBSITE",
+  "addedBy": "SELF",
+  "storeType": "GROCERY",
+  "isMobileVerified": "0",
+  "isEmailVerified": "0",
+  "date": "Wed Dec 21 2022 16:51:54 GMT+0530 (India Standard Time)",
+  "__v": 0,
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      77.2568426,
+      28.5891197
+    ]
+  }
+},{
+  "_id": {
+    "$oid": "63a2ed49d6a3529c1660f644"
+  },
+  "storeImage": "1671621961450-sixteen.png",
+  "storeName": "THE GROCERY SHOP",
+  "storeMobile": "8888888888",
+  "storeEmail": "the_grocery_shop@gmail.com",
+  "storePassword": "$2a$10$0.Dg.LlU2dmZcSjQjvTtZOlElmb71MKUJJvpK8e3x8y6O6yIAVv3O",
+  "deliveryCharge": "8",
+  "storeTiming": "6 am to 6 pm",
+  "pincode": "110013",
+  "estimatedDeliveryTime": "20 min",
+  "otherTax": "35",
+  "landmark": "Laxmi Nagar",
+  "streetAddress": "Delhi",
+  "fullAddress": "New Delhi New Delhi Delhi, India, Pincode: 110013",
+  "latitude": "28.5891197",
+  "longitude": "77.2568426",
+  "addedFrom": "WEBSITE",
+  "addedBy": "SELF",
+  "storeType": "GROCERY",
+  "isMobileVerified": "0",
+  "isEmailVerified": "0",
+  "date": "Wed Dec 21 2022 16:56:01 GMT+0530 (India Standard Time)",
+  "__v": 0,
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      77.2568426,
+      28.5891197
+    ]
+  }
+},{
+  "_id": {
+    "$oid": "63a2edc1d6a3529c1660f651"
+  },
+  "storeImage": "1671622081042-seventeen.png",
+  "storeName": "DS Grocery Store",
+  "storeMobile": "9999999999",
+  "storeEmail": "ds_grocery_store@gmail.com",
+  "storePassword": "$2a$10$13xAur4ZufFX/AxnKiS2SeMxim1zaY8/yaJDMyYC/cQwvZejTFYsu",
+  "deliveryCharge": "14",
+  "storeTiming": "10 am to 7 pm",
+  "pincode": "201309",
+  "estimatedDeliveryTime": "35 min",
+  "otherTax": "15",
+  "landmark": "Near Physics Wala",
+  "streetAddress": "Noida Electronic City",
+  "fullAddress": "Noida Noida Uttar Pradesh, India, Pincode: 201309",
+  "latitude": "28.6197948",
+  "longitude": "77.3611549",
+  "addedFrom": "WEBSITE",
+  "addedBy": "SELF",
+  "storeType": "GROCERY",
+  "isMobileVerified": "0",
+  "isEmailVerified": "0",
+  "date": "Wed Dec 21 2022 16:58:01 GMT+0530 (India Standard Time)",
+  "__v": 0,
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      77.3611549,
+      28.6197948
+    ]
+  }
+},{
+  "_id": {
+    "$oid": "63a2ee78d6a3529c1660f65e"
+  },
+  "storeImage": "1671622264078-eighteen.png",
+  "storeName": "New Era Bazar",
+  "storeMobile": "6666666666",
+  "storeEmail": "new_era_bazar@gmail.com",
+  "storePassword": "$2a$10$7P8X8C.JkAn9iMltgOVIJ.RW0ioI0O25iEYyckNpqX.ZzbgFWjVMu",
+  "deliveryCharge": "10",
+  "storeTiming": "9 am to 5 pm",
+  "pincode": "201301",
+  "estimatedDeliveryTime": "55 min",
+  "otherTax": "30",
+  "landmark": "Near shopping mall",
+  "streetAddress": "Noida sector 62",
+  "fullAddress": "Noida Noida Uttar Pradesh, India, Pincode: 201301",
+  "latitude": "28.5821195",
+  "longitude": "77.3266991",
+  "addedFrom": "WEBSITE",
+  "addedBy": "SELF",
+  "storeType": "GROCERY",
+  "isMobileVerified": "0",
+  "isEmailVerified": "0",
+  "date": "Wed Dec 21 2022 17:01:04 GMT+0530 (India Standard Time)",
+  "__v": 0,
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      77.3266991,
+      28.5821195
+    ]
+  }
+},{
+  "_id": {
+    "$oid": "63a2ef1cd6a3529c1660f66b"
+  },
+  "storeImage": "1671622428028-twenty.png",
+  "storeName": "Ek Dukan Sara Saman",
+  "storeMobile": "5555555555",
+  "storeEmail": "sara_saman_dukan@gmail.com",
+  "storePassword": "$2a$10$7lystRYdroT5aO7PyNWsM.d59KSqgYqJy2cDi7AB0V4jXckIZjmY.",
+  "deliveryCharge": "11",
+  "storeTiming": "8 am to 9 pm",
+  "pincode": "110077",
+  "estimatedDeliveryTime": "50 min",
+  "otherTax": "25",
+  "landmark": "Near lajpat nagar chowk",
+  "streetAddress": "Dwarka Sector 8",
+  "fullAddress": "New Delhi New Delhi Delhi, India, Pincode: 110077",
+  "latitude": "28.5709904",
+  "longitude": "77.07184079999999",
+  "addedFrom": "WEBSITE",
+  "addedBy": "SELF",
+  "storeType": "GROCERY",
+  "isMobileVerified": "0",
+  "isEmailVerified": "0",
+  "date": "Wed Dec 21 2022 17:03:48 GMT+0530 (India Standard Time)",
+  "__v": 0,
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      77.07184079999999,
+      28.5709904
+    ]
+  }
+},{
+  "_id": {
+    "$oid": "63a2efefd6a3529c1660f678"
+  },
+  "storeImage": "1671622639692-twentyone.png",
+  "storeName": "Mishra General Store",
+  "storeMobile": "4444444444",
+  "storeEmail": "misha_general_store@gmail.com",
+  "storePassword": "$2a$10$7nUFJwsAV3p39l.3441MxeIlVOa7gOb4zH0NHoYNjM48ojB5b.YZ6",
+  "deliveryCharge": "8",
+  "storeTiming": "8 am to 10 pm",
+  "pincode": "110077",
+  "estimatedDeliveryTime": "20 min",
+  "otherTax": "23",
+  "landmark": "Near barber shop",
+  "streetAddress": "Dwarka Mor",
+  "fullAddress": "New Delhi New Delhi Delhi, India, Pincode: 110077",
+  "latitude": "28.5709904",
+  "longitude": "77.07184079999999",
+  "addedFrom": "WEBSITE",
+  "addedBy": "SELF",
+  "storeType": "GROCERY",
+  "isMobileVerified": "0",
+  "isEmailVerified": "0",
+  "date": "Wed Dec 21 2022 17:07:19 GMT+0530 (India Standard Time)",
+  "__v": 0,
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      77.07184079999999,
+      28.5709904
+    ]
+  }
+},{
+  "_id": {
+    "$oid": "63a2f0aad6a3529c1660f685"
+  },
+  "storeImage": "1671622826678-twentytwo.png",
+  "storeName": "Lala Ki Dukaan",
+  "storeMobile": "9999999999",
+  "storeEmail": "lala_ki_dukan@gmail.com",
+  "storePassword": "$2a$10$J7StHferS.kYTjw3nb9FDecvb.aOUg4/UEvpMI01y3WQEn3nGtx8O",
+  "deliveryCharge": "15",
+  "storeTiming": "10 am to 7 pm",
+  "pincode": "201203",
+  "estimatedDeliveryTime": "30 min",
+  "otherTax": "32",
+  "landmark": "Korha Colony",
+  "streetAddress": "Gautam Buddha Nagar",
+  "fullAddress": "Noida Noida Uttar Pradesh, India, Pincode: 201203",
+  "latitude": "28.565695",
+  "longitude": "77.3431284",
+  "addedFrom": "WEBSITE",
+  "addedBy": "SELF",
+  "storeType": "GROCERY",
+  "isMobileVerified": "0",
+  "isEmailVerified": "0",
+  "date": "Wed Dec 21 2022 17:10:26 GMT+0530 (India Standard Time)",
+  "__v": 0,
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      77.3431284,
+      28.565695
+    ]
+  }
+},{
+  "_id": {
+    "$oid": "63a2f154d6a3529c1660f692"
+  },
+  "storeImage": "1671622996492-twentythree.png",
+  "storeName": "Arti Coldrink Shop",
+  "storeMobile": "7777777777",
+  "storeEmail": "aarti_coldrink@gmail.com",
+  "storePassword": "$2a$10$gwG6VBrNZ/LPjuWXDkQPkOQ6a0yOkCDJjUG7GB.A8kmA8Bed/VOvK",
+  "deliveryCharge": "149",
+  "storeTiming": "9 am to 5 pm",
+  "pincode": "201309",
+  "estimatedDeliveryTime": "15 min",
+  "otherTax": "30",
+  "landmark": "B Block",
+  "streetAddress": "Near Ithum Tower",
+  "fullAddress": "Noida Noida Uttar Pradesh, India, Pincode: 201309",
+  "latitude": "28.6197948",
+  "longitude": "77.3611549",
+  "addedFrom": "WEBSITE",
+  "addedBy": "SELF",
+  "storeType": "GROCERY",
+  "isMobileVerified": "0",
+  "isEmailVerified": "0",
+  "date": "Wed Dec 21 2022 17:13:16 GMT+0530 (India Standard Time)",
+  "__v": 0,
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      77.3611549,
+      28.6197948
+    ]
+  }
+},{
+  "_id": {
+    "$oid": "63a2fd16d7b6cc7df588b004"
+  },
+  "storeImage": "1671626006152-3.jpg",
+  "storeName": "Garam Dharam",
+  "storeMobile": "8888888888",
+  "storeEmail": "garam_dharam@gmail.com",
+  "storePassword": "$2a$10$SXuq5pi83oR1GxgUTyvjCudGYbkpCk83FeHLiAD.ikb3UT/XA6Zhq",
+  "deliveryCharge": "15",
+  "storeTiming": "6 am to 5 pm",
+  "pincode": "110077",
+  "estimatedDeliveryTime": "20 min",
+  "otherTax": "45",
+  "landmark": "Near Dairy Farm",
+  "streetAddress": "Dwarka Sector  8",
+  "fullAddress": "New Delhi New Delhi Delhi, India, Pincode: 110077",
+  "latitude": "28.5709904",
+  "longitude": "77.07184079999999",
+  "addedFrom": "WEBSITE",
+  "addedBy": "SELF",
+  "storeType": "FOOD",
+  "isMobileVerified": "0",
+  "isEmailVerified": "0",
+  "date": "Wed Dec 21 2022 18:03:26 GMT+0530 (India Standard Time)",
+  "__v": 0,
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      77.07184079999999,
+      28.5709904
+    ]
+  }
+},{
+  "_id": {
+    "$oid": "63a2fdc3d7b6cc7df588b011"
+  },
+  "storeImage": "1671626179648-4.jpg",
+  "storeName": "Chakhna Mahal Restaurant",
+  "storeMobile": "7777777777",
+  "storeEmail": "chakna_mahal@gmail.com",
+  "storePassword": "$2a$10$EejOqL95ta11SY9vqesZZO270tiYK9AjgBU5ysgflT2lYRoik3gB2",
+  "deliveryCharge": "12",
+  "storeTiming": "9 am to 9pm",
+  "pincode": "201301",
+  "estimatedDeliveryTime": "30 min",
+  "otherTax": "95",
+  "landmark": "Gawmata mandir",
+  "streetAddress": "Gautman Buddha Nagar",
+  "fullAddress": "Noida Noida Uttar Pradesh, India, Pincode: 201301",
+  "latitude": "28.5821195",
+  "longitude": "77.3266991",
+  "addedFrom": "WEBSITE",
+  "addedBy": "SELF",
+  "storeType": "FOOD",
+  "isMobileVerified": "0",
+  "isEmailVerified": "0",
+  "date": "Wed Dec 21 2022 18:06:19 GMT+0530 (India Standard Time)",
+  "__v": 0,
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      77.3266991,
+      28.5821195
+    ]
+  }
+},{
+  "_id": {
+    "$oid": "63a2fe21d7b6cc7df588b01e"
+  },
+  "storeImage": "1671626272969-5.jpg",
+  "storeName": "Red Tandoor Restaurant",
+  "storeMobile": "5555555555",
+  "storeEmail": "red_tandoor@gmail.com",
+  "storePassword": "$2a$10$ik0uVwOQoY41Cm7AwXi7DOaliNJUORfcnKUTYeA3D.9mh2.WqNAwe",
+  "deliveryCharge": "10",
+  "storeTiming": "10 am to 8 pm",
+  "pincode": "110013",
+  "estimatedDeliveryTime": "50 min",
+  "otherTax": "70",
+  "landmark": "Near Railway Station",
+  "streetAddress": "Nizamuddin Delhi",
+  "fullAddress": "New Delhi New Delhi Delhi, India, Pincode: 110013",
+  "latitude": "28.5891197",
+  "longitude": "77.2568426",
+  "addedFrom": "WEBSITE",
+  "addedBy": "SELF",
+  "storeType": "FOOD",
+  "isMobileVerified": "0",
+  "isEmailVerified": "0",
+  "date": "Wed Dec 21 2022 18:07:53 GMT+0530 (India Standard Time)",
+  "__v": 0,
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      77.2568426,
+      28.5891197
+    ]
+  }
+},{
+  "_id": {
+    "$oid": "63a2fe7ad7b6cc7df588b02b"
+  },
+  "storeImage": "1671626362636-6.jpg",
+  "storeName": "Moti Mahal Delux",
+  "storeMobile": "8888888888",
+  "storeEmail": "moti_mahal_delux@gmail.com",
+  "storePassword": "$2a$10$i7uvOjnXLFXx/UvA7h2/L.8JBynzYy1xbIoCoCEmqSuZ5cB40zOxG",
+  "deliveryCharge": "14",
+  "storeTiming": "9 am to 7 pm",
+  "pincode": "110077",
+  "estimatedDeliveryTime": "25 min",
+  "otherTax": "78",
+  "landmark": "Lajpat Nagar",
+  "streetAddress": "Dwarka Sector 8",
+  "fullAddress": "New Delhi New Delhi Delhi, India, Pincode: 110077",
+  "latitude": "28.5709904",
+  "longitude": "77.07184079999999",
+  "addedFrom": "WEBSITE",
+  "addedBy": "SELF",
+  "storeType": "FOOD",
+  "isMobileVerified": "0",
+  "isEmailVerified": "0",
+  "date": "Wed Dec 21 2022 18:09:22 GMT+0530 (India Standard Time)",
+  "__v": 0,
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      77.07184079999999,
+      28.5709904
+    ]
+  }
+},{
+  "_id": {
+    "$oid": "63a2ff38d7b6cc7df588b038"
+  },
+  "storeImage": "1671626552408-7.jpg",
+  "storeName": "Indian D-Licious",
+  "storeMobile": "8878787878",
+  "storeEmail": "indian_delecious@gmail.com",
+  "storePassword": "$2a$10$WS65rJUCQQLyUe1aBwQ2/e6wWOHlfczbvcKmVLu6Am6.p39asJCBi",
+  "deliveryCharge": "16",
+  "storeTiming": "10 am to 11 pm",
+  "pincode": "201301",
+  "estimatedDeliveryTime": "50 min",
+  "otherTax": "60",
+  "landmark": "Korha Colony",
+  "streetAddress": "Noida Sector 62",
+  "fullAddress": "Noida Noida Uttar Pradesh, India, Pincode: 201301",
+  "latitude": "28.5821195",
+  "longitude": "77.3266991",
+  "addedFrom": "WEBSITE",
+  "addedBy": "SELF",
+  "storeType": "FOOD",
+  "isMobileVerified": "0",
+  "isEmailVerified": "0",
+  "date": "Wed Dec 21 2022 18:12:32 GMT+0530 (India Standard Time)",
+  "__v": 0,
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      77.3266991,
+      28.5821195
+    ]
+  }
+},{
+  "_id": {
+    "$oid": "63a2ffc0d7b6cc7df588b045"
+  },
+  "storeImage": "1671626688414-8.jpg",
+  "storeName": "New Madras cafe",
+  "storeMobile": "9999999999",
+  "storeEmail": "madras_cafe@gmail.com",
+  "storePassword": "$2a$10$v9dI2XpFtZ8PfSzZKl1kluZpOaQcSwrwuOSaRVhScPTrHAkxG1AcC",
+  "deliveryCharge": "13",
+  "storeTiming": "9 am to 8 pm",
+  "pincode": "110013",
+  "estimatedDeliveryTime": "20 min",
+  "otherTax": "80",
+  "landmark": "Laxmi Nagar",
+  "streetAddress": "New Delhi",
+  "fullAddress": "New Delhi New Delhi Delhi, India, Pincode: 110013",
+  "latitude": "28.5891197",
+  "longitude": "77.2568426",
+  "addedFrom": "WEBSITE",
+  "addedBy": "SELF",
+  "storeType": "FOOD",
+  "isMobileVerified": "0",
+  "isEmailVerified": "0",
+  "date": "Wed Dec 21 2022 18:14:48 GMT+0530 (India Standard Time)",
+  "__v": 0,
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      77.2568426,
+      28.5891197
+    ]
+  }
+},{
+  "_id": {
+    "$oid": "63a5afe898da47f27b1ee7a1"
+  },
+  "storeImage": "1671802856273-10.jpg",
+  "storeName": "Punjabi Bhojan",
+  "storeMobile": "8888888888",
+  "storeEmail": "punjabi_bhojan@gmail.com",
+  "storePassword": "$2a$10$xiM9WDeTpxnTVk/H.t2dv./heGBA5Vbo9FEDT4KFO1nIYXU63Vg/i",
+  "deliveryCharge": "300",
+  "storeTiming": "9 am to 6 pm",
+  "pincode": "110077",
+  "estimatedDeliveryTime": "40 min",
+  "otherTax": "55",
+  "landmark": "Near Nizamuddin ",
+  "streetAddress": "Metro Station",
+  "fullAddress": "New Delhi New Delhi Delhi, India, Pincode: 110077",
+  "latitude": "28.5709904",
+  "longitude": "77.07184079999999",
+  "addedFrom": "WEBSITE",
+  "addedBy": "SELF",
+  "storeType": "FOOD",
+  "isMobileVerified": "0",
+  "isEmailVerified": "0",
+  "date": "Fri Dec 23 2022 19:10:56 GMT+0530 (India Standard Time)",
+  "__v": 0,
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      77.07184079999999,
+      28.5709904
+    ]
+  }
+},{
+  "_id": {
+    "$oid": "63a5b07398da47f27b1ee7ae"
+  },
+  "storeImage": "1671802995052-11.jpg",
+  "storeName": "The Ancient Barbeque",
+  "storeMobile": "9999999999",
+  "storeEmail": "ancient_barbequee@gmail.com",
+  "storePassword": "$2a$10$2sDrwinR22H5POIbCl5bQuCq.5miN4So.JysScWpBvbSZ3e8Y/EV6",
+  "deliveryCharge": "16",
+  "storeTiming": "10 am to 9 pm",
+  "pincode": "201309",
+  "estimatedDeliveryTime": "30 min",
+  "otherTax": "210",
+  "landmark": "Gautam Buddha Nagar",
+  "streetAddress": "Sector 62",
+  "fullAddress": "Noida Noida Uttar Pradesh, India, Pincode: 201309",
+  "latitude": "28.6197948",
+  "longitude": "77.3611549",
+  "addedFrom": "WEBSITE",
+  "addedBy": "SELF",
+  "storeType": "FOOD",
+  "isMobileVerified": "0",
+  "isEmailVerified": "0",
+  "date": "Fri Dec 23 2022 19:13:15 GMT+0530 (India Standard Time)",
+  "__v": 0,
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      77.3611549,
+      28.6197948
+    ]
+  }
+},{
+  "_id": {
+    "$oid": "63a5b0e198da47f27b1ee7bb"
+  },
+  "storeImage": "1671803104930-13.jpg",
+  "storeName": "Cafe Delhi Heights",
+  "storeMobile": "8888888888",
+  "storeEmail": "cafe_delhi@gmail.com",
+  "storePassword": "$2a$10$2j14vxiwkBPsO0Nlvc3/CeJ84XhFPMRlaeZAIwhZPWS2EyrmPR2gi",
+  "deliveryCharge": "14",
+  "storeTiming": "11 am to 5 pm",
+  "pincode": "110077",
+  "estimatedDeliveryTime": "55 min",
+  "otherTax": "200",
+  "landmark": "Korha Colony",
+  "streetAddress": "Sector 62",
+  "fullAddress": "New Delhi New Delhi Delhi, India, Pincode: 110077",
+  "latitude": "28.5709904",
+  "longitude": "77.07184079999999",
+  "addedFrom": "WEBSITE",
+  "addedBy": "SELF",
+  "storeType": "FOOD",
+  "isMobileVerified": "0",
+  "isEmailVerified": "0",
+  "date": "Fri Dec 23 2022 19:15:05 GMT+0530 (India Standard Time)",
+  "__v": 0,
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      77.07184079999999,
+      28.5709904
+    ]
+  }
+},{
+  "_id": {
+    "$oid": "63a5b1ac98da47f27b1ee7cc"
+  },
+  "storeImage": "1671803308712-17.jpg",
+  "storeName": "SPIZE BARBEQUE & BAR",
+  "storeMobile": "7777777777",
+  "storeEmail": "spize_barbeque_bar@gmail.com",
+  "storePassword": "$2a$10$FAv4nzsVns0vDiNjyYNdCukGJrNfnMC.8qqb.YusxWQrK7ir8j/7S",
+  "deliveryCharge": "12",
+  "storeTiming": "9 am to 5 pm",
+  "pincode": "201301",
+  "estimatedDeliveryTime": "20 min",
+  "otherTax": "170",
+  "landmark": "Electronic City",
+  "streetAddress": "Korha Colony",
+  "fullAddress": "Noida Noida Uttar Pradesh, India, Pincode: 201301",
+  "latitude": "28.5821195",
+  "longitude": "77.3266991",
+  "addedFrom": "WEBSITE",
+  "addedBy": "SELF",
+  "storeType": "FOOD",
+  "isMobileVerified": "0",
+  "isEmailVerified": "0",
+  "date": "Fri Dec 23 2022 19:18:28 GMT+0530 (India Standard Time)",
+  "__v": 0,
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      77.3266991,
+      28.5821195
+    ]
+  }
+},{
+  "_id": {
+    "$oid": "63a5b2f798da47f27b1ee7d9"
+  },
+  "storeImage": "1671803639176-19.jpg",
+  "storeName": "Chaurasiya Dhaba",
+  "storeMobile": "8888888888",
+  "storeEmail": "chaurasia_traders@gmail.com",
+  "storePassword": "$2a$10$NOwMnYsV1mAHj/em1Q37k.CckFR7ktarqBsUeUhJE6n/IswDDNqlC",
+  "deliveryCharge": "13",
+  "storeTiming": "9 am to 6 pm",
+  "pincode": "110077",
+  "estimatedDeliveryTime": "30 min",
+  "otherTax": "140",
+  "landmark": "Noida Sector 62",
+  "streetAddress": "Gautam Buddha Nagar",
+  "fullAddress": "New Delhi New Delhi Delhi, India, Pincode: 110077",
+  "latitude": "28.5709904",
+  "longitude": "77.07184079999999",
+  "addedFrom": "WEBSITE",
+  "addedBy": "SELF",
+  "storeType": "FOOD",
+  "isMobileVerified": "0",
+  "isEmailVerified": "0",
+  "date": "Fri Dec 23 2022 19:23:59 GMT+0530 (India Standard Time)",
+  "__v": 0,
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      77.07184079999999,
+      28.5709904
+    ]
+  }
+},{
+  "_id": {
+    "$oid": "63a5b51198da47f27b1ee7e6"
+  },
+  "storeImage": "1671804177463-20.jpg",
+  "storeName": "Republic Restaurant",
+  "storeMobile": "8888888888",
+  "storeEmail": "republic_restaurant@gmail.com",
+  "storePassword": "$2a$10$aAL7sH3m/JkHYi5gPY8FOuzdCcIHTe9YBVOisBzx3KkN6b1OX1ieq",
+  "deliveryCharge": "18",
+  "storeTiming": "9 am to 6 pm",
+  "pincode": "110077",
+  "estimatedDeliveryTime": "40 min",
+  "otherTax": "160",
+  "landmark": "Dwarka Sector 8",
+  "streetAddress": "Near mother dairy",
+  "fullAddress": "New Delhi New Delhi Delhi, India, Pincode: 110077",
+  "latitude": "28.5709904",
+  "longitude": "77.07184079999999",
+  "addedFrom": "WEBSITE",
+  "addedBy": "SELF",
+  "storeType": "FOOD",
+  "isMobileVerified": "0",
+  "isEmailVerified": "0",
+  "date": "Fri Dec 23 2022 19:32:57 GMT+0530 (India Standard Time)",
+  "__v": 0,
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      77.07184079999999,
+      28.5709904
+    ]
+  }
+},{
+  "_id": {
+    "$oid": "63a5b57e98da47f27b1ee7f3"
+  },
+  "storeImage": "1671804285934-21.jpg",
+  "storeName": "Morning Choice Fast Food Corne",
+  "storeMobile": "9999999999",
+  "storeEmail": "morning_choice@gmail.com",
+  "storePassword": "$2a$10$kem0WaoTonqOGadZcoFutOMVr/m3mzHANejtdPjobmAKr7uquHcxy",
+  "deliveryCharge": "10",
+  "storeTiming": "10 am to 8 pm",
+  "pincode": "201301",
+  "estimatedDeliveryTime": "20 min",
+  "otherTax": "59",
+  "landmark": "Gautam Buddha Nagar",
+  "streetAddress": "Noida Sector 62",
+  "fullAddress": "Noida Noida Uttar Pradesh, India, Pincode: 201301",
+  "latitude": "28.5821195",
+  "longitude": "77.3266991",
+  "addedFrom": "WEBSITE",
+  "addedBy": "SELF",
+  "storeType": "FOOD",
+  "isMobileVerified": "0",
+  "isEmailVerified": "0",
+  "date": "Fri Dec 23 2022 19:34:46 GMT+0530 (India Standard Time)",
+  "__v": 0,
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      77.3266991,
+      28.5821195
+    ]
+  }
+},{
+  "_id": {
+    "$oid": "63a5b62b98da47f27b1ee800"
+  },
+  "storeImage": "1671804459769-22.jpg",
+  "storeName": "The Shahi Potli",
+  "storeMobile": "8888888888",
+  "storeEmail": "sahil_potli@gmail.com",
+  "storePassword": "$2a$10$jOIi0MBjP4wklihZIhGzzetaloTjT0xBzoi4naH3TvM8pH52TA9zq",
+  "deliveryCharge": "100",
+  "storeTiming": "8 am to 8 pm",
+  "pincode": "110077",
+  "estimatedDeliveryTime": "60 min",
+  "otherTax": "150",
+  "landmark": "Nizamuddin",
+  "streetAddress": "Delhi",
+  "fullAddress": "New Delhi New Delhi Delhi, India, Pincode: 110077",
+  "latitude": "28.5709904",
+  "longitude": "77.07184079999999",
+  "addedFrom": "WEBSITE",
+  "addedBy": "SELF",
+  "storeType": "FOOD",
+  "isMobileVerified": "0",
+  "isEmailVerified": "0",
+  "date": "Fri Dec 23 2022 19:37:39 GMT+0530 (India Standard Time)",
+  "__v": 0,
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      77.07184079999999,
+      28.5709904
+    ]
+  }
+},{
+  "_id": {
+    "$oid": "63a5b69998da47f27b1ee80d"
+  },
+  "storeImage": "1671804568980-25.jpg",
+  "storeName": "M2 Meat Murga",
+  "storeMobile": "8888888888",
+  "storeEmail": "meat_murga@gmail.com",
+  "storePassword": "$2a$10$TqhHNeyM32u20tXZwYfCtuT4tFBlVB6h8zjFYR/8Vr.1Huw1G9Zsu",
+  "deliveryCharge": "17",
+  "storeTiming": "10 to 10 pm",
+  "pincode": "201309",
+  "estimatedDeliveryTime": "20 min",
+  "otherTax": "90",
+  "landmark": "Noida Electronic City",
+  "streetAddress": "Near PW",
+  "fullAddress": "Noida Noida Uttar Pradesh, India, Pincode: 201309",
+  "latitude": "28.6197948",
+  "longitude": "77.3611549",
+  "addedFrom": "WEBSITE",
+  "addedBy": "SELF",
+  "storeType": "FOOD",
+  "isMobileVerified": "0",
+  "isEmailVerified": "0",
+  "date": "Fri Dec 23 2022 19:39:29 GMT+0530 (India Standard Time)",
+  "__v": 0,
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      77.3611549,
+      28.6197948
+    ]
+  }
+},{
+  "_id": {
+    "$oid": "63b13edc2a870c24333e15d8"
+  },
+  "storeImage": "1672560347927-one.png",
+  "storeName": "The Barbeque Company- Vaishali",
+  "storeMobile": "8888888888",
+  "storeEmail": "barbequee_vaishali@gmail.com",
+  "storePassword": "$2a$10$FnFHKMSs/YYifgHDMlX1zebCVQ/Q6OQu5Haw1yKFZ57FqaQ/WqzDS",
+  "deliveryCharge": "15",
+  "storeTiming": "9 am to 6 pm",
+  "pincode": "110077",
+  "estimatedDeliveryTime": "30 min",
+  "otherTax": "149",
+  "landmark": "Laxmi Nagar",
+  "streetAddress": "Hazrat Nizamuddin Delhi",
+  "fullAddress": "New Delhi New Delhi Delhi, India, Pincode: 110077",
+  "latitude": "28.5709904",
+  "longitude": "77.07184079999999",
+  "addedFrom": "WEBSITE",
+  "addedBy": "SELF",
+  "storeType": "FOOD",
+  "isMobileVerified": "0",
+  "isEmailVerified": "0",
+  "date": "Sun Jan 01 2023 13:35:48 GMT+0530 (India Standard Time)",
+  "__v": 0,
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      77.07184079999999,
+      28.5709904
+    ]
+  }
+},{
+  "_id": {
+    "$oid": "63b13f5b2a870c24333e15e5"
+  },
+  "storeImage": "1672560475428-two.png",
+  "storeName": "Ching Singh",
+  "storeMobile": "7777777777",
+  "storeEmail": "ching_singh@gmail.com",
+  "storePassword": "$2a$10$P.d96ffPOyyeZozOSYZ2iu84mg4Vm0w4tpqlU7hPOdsL2AJMI/sFe",
+  "deliveryCharge": "200",
+  "storeTiming": "11 am to 8 pm",
+  "pincode": "201301",
+  "estimatedDeliveryTime": "25 min",
+  "otherTax": "240",
+  "landmark": "Gautam Buddha Nagar",
+  "streetAddress": "Noida Sector 62",
+  "fullAddress": "Noida Noida Uttar Pradesh, India, Pincode: 201301",
+  "latitude": "28.5821195",
+  "longitude": "77.3266991",
+  "addedFrom": "WEBSITE",
+  "addedBy": "SELF",
+  "storeType": "FOOD",
+  "isMobileVerified": "0",
+  "isEmailVerified": "0",
+  "date": "Sun Jan 01 2023 13:37:55 GMT+0530 (India Standard Time)",
+  "__v": 0,
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      77.3266991,
+      28.5821195
+    ]
+  }
+},{
+  "_id": {
+    "$oid": "63b13fc82a870c24333e15f2"
+  },
+  "storeImage": "1672560584577-three.png",
+  "storeName": "Biryani Expert",
+  "storeMobile": "9999999999",
+  "storeEmail": "biryani_expert@gmail.com",
+  "storePassword": "$2a$10$jjnpPuqy0nwJYU9pVA21FeE9SqY5Rl6cLpEMGIqieh5CFAF39otH.",
+  "deliveryCharge": "18",
+  "storeTiming": "8 am to 6 pm",
+  "pincode": "201301",
+  "estimatedDeliveryTime": "55 min",
+  "otherTax": "240",
+  "landmark": "Near Metro Station",
+  "streetAddress": "Noida Electronic City",
+  "fullAddress": "Noida Noida Uttar Pradesh, India, Pincode: 201301",
+  "latitude": "28.5821195",
+  "longitude": "77.3266991",
+  "addedFrom": "WEBSITE",
+  "addedBy": "SELF",
+  "storeType": "FOOD",
+  "isMobileVerified": "0",
+  "isEmailVerified": "0",
+  "date": "Sun Jan 01 2023 13:39:44 GMT+0530 (India Standard Time)",
+  "__v": 0,
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      77.3266991,
+      28.5821195
+    ]
+  }
+},{
+  "_id": {
+    "$oid": "63b140302a870c24333e15ff"
+  },
+  "storeImage": "1672560688012-four.png",
+  "storeName": "Hurry's Paratha",
+  "storeMobile": "6666666666",
+  "storeEmail": "hurrys_parantha@gmail.com",
+  "storePassword": "$2a$10$cQ1DcKvvMMBKZsy5MIS/s.T2ByH01GK.KIRwqrHYJ0BlqyjxyDrEO",
+  "deliveryCharge": "12",
+  "storeTiming": "10 am to 11 pm",
+  "pincode": "201301",
+  "estimatedDeliveryTime": "40 min",
+  "otherTax": "190",
+  "landmark": "Near D Park",
+  "streetAddress": "Noida Sector 62",
+  "fullAddress": "Noida Noida Uttar Pradesh, India, Pincode: 201301",
+  "latitude": "28.5821195",
+  "longitude": "77.3266991",
+  "addedFrom": "WEBSITE",
+  "addedBy": "SELF",
+  "storeType": "FOOD",
+  "isMobileVerified": "0",
+  "isEmailVerified": "0",
+  "date": "Sun Jan 01 2023 13:41:28 GMT+0530 (India Standard Time)",
+  "__v": 0,
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      77.3266991,
+      28.5821195
+    ]
+  }
+},{
+  "_id": {
+    "$oid": "63b140a82a870c24333e160c"
+  },
+  "storeImage": "1672560808197-five.png",
+  "storeName": "Wat-A-Burger",
+  "storeMobile": "8888888888",
+  "storeEmail": "wat_burger@gmail.com",
+  "storePassword": "$2a$10$/HSY0tcWRy0kFZtrkCKky.4CxdQBblSpalgy9Rg3WsOLPNrIFcKjS",
+  "deliveryCharge": "120",
+  "storeTiming": "10 am to 5 pm",
+  "pincode": "110077",
+  "estimatedDeliveryTime": "30 min",
+  "otherTax": "160",
+  "landmark": "Near Lajpat Nagar",
+  "streetAddress": "Dwarka Delhi",
+  "fullAddress": "New Delhi New Delhi Delhi, India, Pincode: 110077",
+  "latitude": "28.5709904",
+  "longitude": "77.07184079999999",
+  "addedFrom": "WEBSITE",
+  "addedBy": "SELF",
+  "storeType": "FOOD",
+  "isMobileVerified": "0",
+  "isEmailVerified": "0",
+  "date": "Sun Jan 01 2023 13:43:28 GMT+0530 (India Standard Time)",
+  "__v": 0,
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      77.07184079999999,
+      28.5709904
+    ]
+  }
+},{
+  "_id": {
+    "$oid": "63b1410f2a870c24333e1619"
+  },
+  "storeImage": "1672560911314-six.png",
+  "storeName": "Baby Dragon Bar & Restaurant",
+  "storeMobile": "8888888888",
+  "storeEmail": "baby_dragon@gmail.com",
+  "storePassword": "$2a$10$iNFpSHKHWJVahgPKXz8IBeH598OecB7xVTJM5inFFS189RZw2ECfW",
+  "deliveryCharge": "20",
+  "storeTiming": "10 am to 6 pm",
+  "pincode": "110077",
+  "estimatedDeliveryTime": "40 min",
+  "otherTax": "130",
+  "landmark": "Near Dairy Milk",
+  "streetAddress": "Dwarka Delhi",
+  "fullAddress": "New Delhi New Delhi Delhi, India, Pincode: 110077",
+  "latitude": "28.5709904",
+  "longitude": "77.07184079999999",
+  "addedFrom": "WEBSITE",
+  "addedBy": "SELF",
+  "storeType": "FOOD",
+  "isMobileVerified": "0",
+  "isEmailVerified": "0",
+  "date": "Sun Jan 01 2023 13:45:11 GMT+0530 (India Standard Time)",
+  "__v": 0,
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      77.07184079999999,
+      28.5709904
+    ]
+  }
+},{
+  "_id": {
+    "$oid": "63b141a42a870c24333e1626"
+  },
+  "storeImage": "1672561060273-seven.png",
+  "storeName": "Rajendra Fast Food",
+  "storeMobile": "9999999999",
+  "storeEmail": "rajendra_fast_food@gmail.com",
+  "storePassword": "$2a$10$zz9dBJ8obx.0qJOHKC.CW.0gnGqIkhYfjPEbd/BYNxD9ZZ70qOt2q",
+  "deliveryCharge": "100",
+  "storeTiming": "8 am to 9 pm",
+  "pincode": "201301",
+  "estimatedDeliveryTime": "15 min",
+  "otherTax": "170",
+  "landmark": "Near Akansha Apartment",
+  "streetAddress": "Noida Sector 62",
+  "fullAddress": "Noida Noida Uttar Pradesh, India, Pincode: 201301",
+  "latitude": "28.5821195",
+  "longitude": "77.3266991",
+  "addedFrom": "WEBSITE",
+  "addedBy": "SELF",
+  "storeType": "FOOD",
+  "isMobileVerified": "0",
+  "isEmailVerified": "0",
+  "date": "Sun Jan 01 2023 13:47:40 GMT+0530 (India Standard Time)",
+  "__v": 0,
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      77.3266991,
+      28.5821195
+    ]
+  }
+},{
+  "_id": {
+    "$oid": "63b142f12a870c24333e1633"
+  },
+  "storeImage": "1672561393153-eight.png",
+  "storeName": "Punjabi Angithi",
+  "storeMobile": "9999999999",
+  "storeEmail": "punjabi_angithi@gmail.com",
+  "storePassword": "$2a$10$.2fFB.nS6gDEqCRNB2wPxub8b4DidrAoH0zDj96wo7bTZ5e0pZCJ.",
+  "deliveryCharge": "45",
+  "storeTiming": "10 am to 9 pm",
+  "pincode": "201309",
+  "estimatedDeliveryTime": "50 min",
+  "otherTax": "99",
+  "landmark": "Near Petrol Pump",
+  "streetAddress": "Noida Electronic City",
+  "fullAddress": "Noida Noida Uttar Pradesh, India, Pincode: 201309",
+  "latitude": "28.6197948",
+  "longitude": "77.3611549",
+  "addedFrom": "WEBSITE",
+  "addedBy": "SELF",
+  "storeType": "FOOD",
+  "isMobileVerified": "0",
+  "isEmailVerified": "0",
+  "date": "Sun Jan 01 2023 13:53:13 GMT+0530 (India Standard Time)",
+  "__v": 0,
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      77.3611549,
+      28.6197948
+    ]
+  }
+},{
+  "_id": {
+    "$oid": "63b143d22a870c24333e1640"
+  },
+  "storeImage": "1672561618705-nine.png",
+  "storeName": "Dasaprakash, Spice Mall",
+  "storeMobile": "8888888888",
+  "storeEmail": "spice_mall@gmail.com",
+  "storePassword": "$2a$10$blNon74EQLPNHAidHrwxceiyzeQuerYYkb.0P0B1OdYUYKIugPGke",
+  "deliveryCharge": "25",
+  "storeTiming": "10 to 11 pm",
+  "pincode": "201301",
+  "estimatedDeliveryTime": "30 min",
+  "otherTax": "240",
+  "landmark": "Near Kashmiri Gate",
+  "streetAddress": "Delhi Ncr",
+  "fullAddress": "Noida Noida Uttar Pradesh, India, Pincode: 201301",
+  "latitude": "28.5821195",
+  "longitude": "77.3266991",
+  "addedFrom": "WEBSITE",
+  "addedBy": "SELF",
+  "storeType": "FOOD",
+  "isMobileVerified": "0",
+  "isEmailVerified": "0",
+  "date": "Sun Jan 01 2023 13:56:58 GMT+0530 (India Standard Time)",
+  "__v": 0,
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      77.3266991,
+      28.5821195
+    ]
+  }
+},{
+  "_id": {
+    "$oid": "63b144802a870c24333e164d"
+  },
+  "storeImage": "1672561792169-ten.png",
+  "storeName": "Food Plaza",
+  "storeMobile": "8888888888",
+  "storeEmail": "food_plaza@gmail.com",
+  "storePassword": "$2a$10$l2AGrlhWJqabHkzVQneaAet9vUlkpwLA2QzK2ll6bp6xeH3H60k1W",
+  "deliveryCharge": "13",
+  "storeTiming": "9 am to 6 pm",
+  "pincode": "110077",
+  "estimatedDeliveryTime": "20 min",
+  "otherTax": "260",
+  "landmark": "Near Palam ",
+  "streetAddress": "Dwarka Delhi",
+  "fullAddress": "New Delhi New Delhi Delhi, India, Pincode: 110077",
+  "latitude": "28.5709904",
+  "longitude": "77.07184079999999",
+  "addedFrom": "WEBSITE",
+  "addedBy": "SELF",
+  "storeType": "FOOD",
+  "isMobileVerified": "0",
+  "isEmailVerified": "0",
+  "date": "Sun Jan 01 2023 13:59:52 GMT+0530 (India Standard Time)",
+  "__v": 0,
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      77.07184079999999,
+      28.5709904
+    ]
+  }
+},{
+  "_id": {
+    "$oid": "63b145222a870c24333e165a"
+  },
+  "storeImage": "1672561954841-eleven.png",
+  "storeName": "Spice Cinemas Food Court",
+  "storeMobile": "9999999999",
+  "storeEmail": "spice_cinema@gmail.com",
+  "storePassword": "$2a$10$TJsxxFivE4QcHQrptYUbQeRRLjPVJ/AGIx.3JMM1Ap6ZIqTO74Jja",
+  "deliveryCharge": "15",
+  "storeTiming": "11 am to 6 pm",
+  "pincode": "201301",
+  "estimatedDeliveryTime": "25 min",
+  "otherTax": "310",
+  "landmark": "Near Hazrat Nizamuddin",
+  "streetAddress": "Gautam Buddha Nagar",
+  "fullAddress": "Noida Noida Uttar Pradesh, India, Pincode: 201301",
+  "latitude": "28.5821195",
+  "longitude": "77.3266991",
+  "addedFrom": "WEBSITE",
+  "addedBy": "SELF",
+  "storeType": "FOOD",
+  "isMobileVerified": "0",
+  "isEmailVerified": "0",
+  "date": "Sun Jan 01 2023 14:02:34 GMT+0530 (India Standard Time)",
+  "__v": 0,
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      77.3266991,
+      28.5821195
+    ]
+  }
+},{
+  "_id": {
+    "$oid": "63b1461b2a870c24333e1667"
+  },
+  "storeImage": "1672562202952-twelve.png",
+  "storeName": "Karigari Restaurant",
+  "storeMobile": "8888888888",
+  "storeEmail": "karigari_restaurant@gmail.com",
+  "storePassword": "$2a$10$RXcjaelV8k5tAlHsbrz0DuBNEmAAmg/vKpjFuOn8.Jn/N32/kYKQ.",
+  "deliveryCharge": "19",
+  "storeTiming": "9 am to 7 pm",
+  "pincode": "110013",
+  "estimatedDeliveryTime": "20 min",
+  "otherTax": "205",
+  "landmark": "Near Hazrat Platform",
+  "streetAddress": "Delhi ",
+  "fullAddress": "New Delhi New Delhi Delhi, India, Pincode: 110013",
+  "latitude": "28.5891197",
+  "longitude": "77.2568426",
+  "addedFrom": "WEBSITE",
+  "addedBy": "SELF",
+  "storeType": "FOOD",
+  "isMobileVerified": "0",
+  "isEmailVerified": "0",
+  "date": "Sun Jan 01 2023 14:06:43 GMT+0530 (India Standard Time)",
+  "__v": 0,
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      77.2568426,
+      28.5891197
+    ]
+  }
+},{
+  "_id": {
+    "$oid": "63b146942a870c24333e1674"
+  },
+  "storeImage": "1672562324105-thirteen.png",
+  "storeName": "Snacks India",
+  "storeMobile": "8898888878",
+  "storeEmail": "snacks_india@gmail.com",
+  "storePassword": "$2a$10$9wKdB5Tf7rO.I0YNv9HbMeR7CjNYPncUT1xrj127obsd/pHpcQBL.",
+  "deliveryCharge": "155",
+  "storeTiming": "10 am to 8 pm",
+  "pincode": "110077",
+  "estimatedDeliveryTime": "50 min",
+  "otherTax": "199",
+  "landmark": "Near SBI ATM",
+  "streetAddress": "Lajpat Nagar Delhi",
+  "fullAddress": "New Delhi New Delhi Delhi, India, Pincode: 110077",
+  "latitude": "28.5709904",
+  "longitude": "77.07184079999999",
+  "addedFrom": "WEBSITE",
+  "addedBy": "SELF",
+  "storeType": "FOOD",
+  "isMobileVerified": "0",
+  "isEmailVerified": "0",
+  "date": "Sun Jan 01 2023 14:08:44 GMT+0530 (India Standard Time)",
+  "__v": 0,
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      77.07184079999999,
+      28.5709904
+    ]
+  }
+},{
+  "_id": {
+    "$oid": "63b147412a870c24333e1681"
+  },
+  "storeImage": "1672562497009-forteen.png",
+  "storeName": "A Grill Company",
+  "storeMobile": "7777777777",
+  "storeEmail": "grill_company@gmail.com",
+  "storePassword": "$2a$10$9SU3Da6pKgg4Cdy5Or/8ke297z7X4.d14YmBKx1c6GGSq27P17.Oy",
+  "deliveryCharge": "16",
+  "storeTiming": "10 am to 9 pm",
+  "pincode": "110013",
+  "estimatedDeliveryTime": "55 min",
+  "otherTax": "125",
+  "landmark": "Jasola",
+  "streetAddress": "Sahin Bagh Delhi",
+  "fullAddress": "New Delhi New Delhi Delhi, India, Pincode: 110013",
+  "latitude": "28.5891197",
+  "longitude": "77.2568426",
+  "addedFrom": "WEBSITE",
+  "addedBy": "SELF",
+  "storeType": "FOOD",
+  "isMobileVerified": "0",
+  "isEmailVerified": "0",
+  "date": "Sun Jan 01 2023 14:11:37 GMT+0530 (India Standard Time)",
+  "__v": 0,
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      77.2568426,
+      28.5891197
+    ]
+  }
+},{
+  "_id": {
+    "$oid": "63b148222a870c24333e168e"
+  },
+  "storeImage": "1672562722906-fifteen.png",
+  "storeName": "Clever Fox Café",
+  "storeMobile": "7777777777",
+  "storeEmail": "clever_fox@gmail.com",
+  "storePassword": "$2a$10$F4oCJUSbFWeDQPwcTlgMA.V9HK4sUOaMWEYOGPQudWfwIGpB3yQVe",
+  "deliveryCharge": "230",
+  "storeTiming": "9 am to 9 pm",
+  "pincode": "110077",
+  "estimatedDeliveryTime": "20 min",
+  "otherTax": "213",
+  "landmark": "Near Hanuman Mandir",
+  "streetAddress": "Dwaka Delhi",
+  "fullAddress": "New Delhi New Delhi Delhi, India, Pincode: 110077",
+  "latitude": "28.5709904",
+  "longitude": "77.07184079999999",
+  "addedFrom": "WEBSITE",
+  "addedBy": "SELF",
+  "storeType": "FOOD",
+  "isMobileVerified": "0",
+  "isEmailVerified": "0",
+  "date": "Sun Jan 01 2023 14:15:22 GMT+0530 (India Standard Time)",
+  "__v": 0,
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      77.07184079999999,
+      28.5709904
+    ]
+  }
+},{
+  "_id": {
+    "$oid": "63b1490b2a870c24333e169b"
+  },
+  "storeImage": "1672562955299-sixteen.png",
+  "storeName": "Hunger Strike",
+  "storeMobile": "8888888888",
+  "storeEmail": "hunger_strike@gmail.com",
+  "storePassword": "$2a$10$RjMIQDX0ftcIR3o2TLr1U.pvLVbsYw/VCC9Vt1SL6rPnVPZ/MdbiK",
+  "deliveryCharge": "12",
+  "storeTiming": "10 am to 8 pm",
+  "pincode": "110077",
+  "estimatedDeliveryTime": "25 min",
+  "otherTax": "180",
+  "landmark": "Near Lajpat Nagar",
+  "streetAddress": "Dwarka Delhi",
+  "fullAddress": "New Delhi New Delhi Delhi, India, Pincode: 110077",
+  "latitude": "28.5709904",
+  "longitude": "77.07184079999999",
+  "addedFrom": "WEBSITE",
+  "addedBy": "SELF",
+  "storeType": "FOOD",
+  "isMobileVerified": "0",
+  "isEmailVerified": "0",
+  "date": "Sun Jan 01 2023 14:19:15 GMT+0530 (India Standard Time)",
+  "__v": 0,
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      77.07184079999999,
+      28.5709904
+    ]
+  }
+},{
+  "_id": {
+    "$oid": "63b149bb2a870c24333e16a8"
+  },
+  "storeImage": "1672563131156-seventeen.png",
+  "storeName": "Balle Balle Shawarma",
+  "storeMobile": "8888888888",
+  "storeEmail": "bakke_balle@gmail.com",
+  "storePassword": "$2a$10$Yz4VuuiahT1HuQdDQioOjOD.rP68ndZuOSwdfHIGw.f6LU4AnTnCy",
+  "deliveryCharge": "16",
+  "storeTiming": "10 am to 8 pm",
+  "pincode": "201301",
+  "estimatedDeliveryTime": "60 min",
+  "otherTax": "150",
+  "landmark": "Gomti Nagar Block B",
+  "streetAddress": "Noida Sector 62",
+  "fullAddress": "Noida Noida Uttar Pradesh, India, Pincode: 201301",
+  "latitude": "28.5821195",
+  "longitude": "77.3266991",
+  "addedFrom": "WEBSITE",
+  "addedBy": "SELF",
+  "storeType": "FOOD",
+  "isMobileVerified": "0",
+  "isEmailVerified": "0",
+  "date": "Sun Jan 01 2023 14:22:11 GMT+0530 (India Standard Time)",
+  "__v": 0,
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      77.3266991,
+      28.5821195
+    ]
+  }
+},{
+  "_id": {
+    "$oid": "63b14c152a870c24333e16b5"
+  },
+  "storeImage": "1672563733626-eighteen.png",
+  "storeName": "Burger King",
+  "storeMobile": "7777777777",
+  "storeEmail": "burger_king@gmail.com",
+  "storePassword": "$2a$10$TG34XuAfgd63xh.9AI2ySuEFpDxDUEHEwmR9Dlt8XvXJHlvkozj..",
+  "deliveryCharge": "14",
+  "storeTiming": "8 am to 8 pm",
+  "pincode": "201301",
+  "estimatedDeliveryTime": "30 min",
+  "otherTax": "20",
+  "landmark": "Gaw Mata Mandir",
+  "streetAddress": "Noida Electronic City",
+  "fullAddress": "Noida Noida Uttar Pradesh, India, Pincode: 201301",
+  "latitude": "28.5821195",
+  "longitude": "77.3266991",
+  "addedFrom": "WEBSITE",
+  "addedBy": "SELF",
+  "storeType": "FOOD",
+  "isMobileVerified": "0",
+  "isEmailVerified": "0",
+  "date": "Sun Jan 01 2023 14:32:13 GMT+0530 (India Standard Time)",
+  "__v": 0,
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      77.3266991,
+      28.5821195
+    ]
+  }
+},{
+  "_id": {
+    "$oid": "63b14cd12a870c24333e16c2"
+  },
+  "storeImage": "1672563921318-ninteen.png",
+  "storeName": "The Tandoori Village",
+  "storeMobile": "8888888888",
+  "storeEmail": "tandoori_village@gmail.com",
+  "storePassword": "$2a$10$O1zysFD9It/EMhWpZQmqku58zabaqoX1rjsDokDwgovs1mLY7TrXy",
+  "deliveryCharge": "13",
+  "storeTiming": "10 am to 8 pm",
+  "pincode": "110013",
+  "estimatedDeliveryTime": "20 min",
+  "otherTax": "125",
+  "landmark": "Near Golf Coarse",
+  "streetAddress": "Iifco Chowk",
+  "fullAddress": "New Delhi New Delhi Delhi, India, Pincode: 110013",
+  "latitude": "28.5891197",
+  "longitude": "77.2568426",
+  "addedFrom": "WEBSITE",
+  "addedBy": "SELF",
+  "storeType": "FOOD",
+  "isMobileVerified": "0",
+  "isEmailVerified": "0",
+  "date": "Sun Jan 01 2023 14:35:21 GMT+0530 (India Standard Time)",
+  "__v": 0,
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      77.2568426,
+      28.5891197
+    ]
+  }
+},{
+  "_id": {
+    "$oid": "63b14d462a870c24333e16cf"
+  },
+  "storeImage": "1672564038332-twenty.png",
+  "storeName": "Punjabee's darbar",
+  "storeMobile": "8888888888",
+  "storeEmail": "punjabi_darbar@gmail.com",
+  "storePassword": "$2a$10$4KvuhN0KBwQ.WJTAniwYZeCqIUXcOcnnolt8..nU6T.B68y7FvyR6",
+  "deliveryCharge": "230",
+  "storeTiming": "10 am to 10 pm",
+  "pincode": "201309",
+  "estimatedDeliveryTime": "55 min",
+  "otherTax": "260",
+  "landmark": "Corenthum Tower",
+  "streetAddress": "Near Axis Bank",
+  "fullAddress": "Noida Noida Uttar Pradesh, India, Pincode: 201309",
+  "latitude": "28.6197948",
+  "longitude": "77.3611549",
+  "addedFrom": "WEBSITE",
+  "addedBy": "SELF",
+  "storeType": "FOOD",
+  "isMobileVerified": "0",
+  "isEmailVerified": "0",
+  "date": "Sun Jan 01 2023 14:37:18 GMT+0530 (India Standard Time)",
+  "__v": 0,
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      77.3611549,
+      28.6197948
+    ]
+  }
+},{
+  "_id": {
+    "$oid": "63b14db12a870c24333e16e4"
+  },
+  "storeImage": "1672564145474-twentyone.png",
+  "storeName": "Lovely Fast Food",
+  "storeMobile": "9999999999",
+  "storeEmail": "lovely_fast@gmail.com",
+  "storePassword": "$2a$10$1SJWaGntjXCQUiq7OTGEt.7WLlyB04IIwTaljwBtiK6gLDFtUFTP.",
+  "deliveryCharge": "16",
+  "storeTiming": "9 am to 11 pm",
+  "pincode": "110013",
+  "estimatedDeliveryTime": "20 min",
+  "otherTax": "150",
+  "landmark": "Near Atm",
+  "streetAddress": "HazratNizamuddin",
+  "fullAddress": "New Delhi New Delhi Delhi, India, Pincode: 110013",
+  "latitude": "28.5891197",
+  "longitude": "77.2568426",
+  "addedFrom": "WEBSITE",
+  "addedBy": "SELF",
+  "storeType": "FOOD",
+  "isMobileVerified": "0",
+  "isEmailVerified": "0",
+  "date": "Sun Jan 01 2023 14:39:05 GMT+0530 (India Standard Time)",
+  "__v": 0,
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      77.2568426,
+      28.5891197
+    ]
+  }
+},{
+  "_id": {
+    "$oid": "63b150702a870c24333e16f1"
+  },
+  "storeImage": "1672564848624-twentytwo.png",
+  "storeName": "Pizzasia",
+  "storeMobile": "9999999999",
+  "storeEmail": "Pizzasia@gmail.com",
+  "storePassword": "$2a$10$rhrZsI5iMwjfo4duRKm.ROcWoq56BoUZZW/wS.Hqxuql8fMjAuHLy",
+  "deliveryCharge": "19",
+  "storeTiming": "8 am to 9 pm",
+  "pincode": "110077",
+  "estimatedDeliveryTime": "40 min",
+  "otherTax": "321",
+  "landmark": "Near Lalbahadur Sastri Marg",
+  "streetAddress": "Dwarka Delhi",
+  "fullAddress": "New Delhi New Delhi Delhi, India, Pincode: 110077",
+  "latitude": "28.5709904",
+  "longitude": "77.07184079999999",
+  "addedFrom": "WEBSITE",
+  "addedBy": "SELF",
+  "storeType": "FOOD",
+  "isMobileVerified": "0",
+  "isEmailVerified": "0",
+  "date": "Sun Jan 01 2023 14:50:48 GMT+0530 (India Standard Time)",
+  "__v": 0,
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      77.07184079999999,
+      28.5709904
+    ]
+  }
+}]

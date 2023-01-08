@@ -1,0 +1,571 @@
+[{
+  "_id": {
+    "$oid": "63b91f61f9780c7c82970351"
+  },
+  "category_id": "6391df25fb491dd3a51999c3",
+  "sub_category_id": "63b7ed0a83c5679b4982da26",
+  "store_id": "63b150702a870c24333e16f1",
+  "name": "Aamras Ki Kadhi",
+  "price": "255",
+  "weight": [
+    "200",
+    "100"
+  ],
+  "weight_type": "ml",
+  "stock_count": "50",
+  "discount": "10",
+  "tax": "17",
+  "images": [
+    "1673076577301-Aamras-Ki-Kadhi.jpg"
+  ],
+  "date": "Sat Jan 07 2023 12:59:37 GMT+0530 (India Standard Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63b9202ff9780c7c82970354"
+  },
+  "category_id": "6391df25fb491dd3a51999c3",
+  "sub_category_id": "63b7ed0a83c5679b4982da26",
+  "store_id": "63b14db12a870c24333e16e4",
+  "name": "Barfi",
+  "price": "499",
+  "weight": [
+    "1"
+  ],
+  "weight_type": "kg",
+  "stock_count": "75",
+  "discount": "15",
+  "tax": "16",
+  "images": [
+    "1673076783438-barfi.jpg"
+  ],
+  "date": "Sat Jan 07 2023 13:03:03 GMT+0530 (India Standard Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63b920e7f9780c7c82970357"
+  },
+  "category_id": "6391df25fb491dd3a51999c3",
+  "sub_category_id": "63b7ed0a83c5679b4982da26",
+  "store_id": "63b14d462a870c24333e16cf",
+  "name": "Bombay Style Aloo",
+  "price": "165",
+  "weight": [
+    "1"
+  ],
+  "weight_type": "kg",
+  "stock_count": "25",
+  "discount": "8",
+  "tax": "17",
+  "images": [
+    "1673076967023-Bombay-Style-Aloo.jpg"
+  ],
+  "date": "Sat Jan 07 2023 13:06:07 GMT+0530 (India Standard Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63b922c2f9780c7c8297035a"
+  },
+  "category_id": "6391df25fb491dd3a51999c3",
+  "sub_category_id": "63b7ed0a83c5679b4982da26",
+  "store_id": "63b14cd12a870c24333e16c2",
+  "name": "Burger",
+  "price": "399",
+  "weight": [
+    "1"
+  ],
+  "weight_type": "pc",
+  "stock_count": "100",
+  "discount": "12",
+  "tax": "18",
+  "images": [
+    "1673077442795-burger.jpg"
+  ],
+  "date": "Sat Jan 07 2023 13:14:02 GMT+0530 (India Standard Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63b92329f9780c7c8297035d"
+  },
+  "category_id": "6391df25fb491dd3a51999c3",
+  "sub_category_id": "63b7ed0a83c5679b4982da26",
+  "store_id": "63b14c152a870c24333e16b5",
+  "name": "Cake",
+  "price": "599",
+  "weight": [
+    "1"
+  ],
+  "weight_type": "pc",
+  "stock_count": "100",
+  "discount": "10",
+  "tax": "16",
+  "images": [
+    "1673077545172-cake.jpg"
+  ],
+  "date": "Sat Jan 07 2023 13:15:45 GMT+0530 (India Standard Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63b92403f9780c7c82970360"
+  },
+  "category_id": "6391df25fb491dd3a51999c3",
+  "sub_category_id": "63b7ed0a83c5679b4982da26",
+  "store_id": "63b149bb2a870c24333e16a8",
+  "name": "Carrot Salad With Grape Dressing",
+  "price": "99",
+  "weight": [
+    "1"
+  ],
+  "weight_type": "Kg",
+  "stock_count": "50",
+  "discount": "20",
+  "tax": "12",
+  "images": [
+    "1673077763641-Carrot-Salad-with-Grape-Dressing.jpg"
+  ],
+  "date": "Sat Jan 07 2023 13:19:23 GMT+0530 (India Standard Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63b9249df9780c7c82970363"
+  },
+  "category_id": "6391df25fb491dd3a51999c3",
+  "sub_category_id": "63b7ed0a83c5679b4982da26",
+  "store_id": "63b1490b2a870c24333e169b",
+  "name": "Chhole Bhature",
+  "price": "75",
+  "weight": [
+    "1"
+  ],
+  "weight_type": "Plate",
+  "stock_count": "100",
+  "discount": "8",
+  "tax": "15",
+  "images": [
+    "1673077917181-chole-bhature.jpg"
+  ],
+  "date": "Sat Jan 07 2023 13:21:57 GMT+0530 (India Standard Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63b92508f9780c7c82970366"
+  },
+  "category_id": "6391df25fb491dd3a51999c3",
+  "sub_category_id": "63b7ed0a83c5679b4982da26",
+  "store_id": "63b148222a870c24333e168e",
+  "name": "Chhole Kulche",
+  "price": "69",
+  "weight": [
+    "1"
+  ],
+  "weight_type": "Plate",
+  "stock_count": "100",
+  "discount": "10",
+  "tax": "12",
+  "images": [
+    "1673078024021-chole-kulche.jpg"
+  ],
+  "date": "Sat Jan 07 2023 13:23:44 GMT+0530 (India Standard Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63b9253ef9780c7c82970369"
+  },
+  "category_id": "6391df25fb491dd3a51999c3",
+  "sub_category_id": "63b7ed0a83c5679b4982da26",
+  "store_id": "63b147412a870c24333e1681",
+  "name": "Chowmin",
+  "price": "55",
+  "weight": [
+    "1"
+  ],
+  "weight_type": "Plate",
+  "stock_count": "99",
+  "discount": "5",
+  "tax": "20",
+  "images": [
+    "1673078078491-chowmin.jpg"
+  ],
+  "date": "Sat Jan 07 2023 13:24:38 GMT+0530 (India Standard Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63b9265cf9780c7c8297036c"
+  },
+  "category_id": "6391df25fb491dd3a51999c3",
+  "sub_category_id": "63b7ed0a83c5679b4982da26",
+  "store_id": "63b146942a870c24333e1674",
+  "name": "Dahi Kabab",
+  "price": "149",
+  "weight": [
+    "210"
+  ],
+  "weight_type": "Gram",
+  "stock_count": "20",
+  "discount": "8",
+  "tax": "12",
+  "images": [
+    "1673078364844-Dahi-Kebab.jpg"
+  ],
+  "date": "Sat Jan 07 2023 13:29:24 GMT+0530 (India Standard Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63b926c0f9780c7c8297036f"
+  },
+  "category_id": "6391df25fb491dd3a51999c3",
+  "sub_category_id": "63b7ed0a83c5679b4982da26",
+  "store_id": "63b1461b2a870c24333e1667",
+  "name": "Gobhi Aloo",
+  "price": "250",
+  "weight": [
+    "1"
+  ],
+  "weight_type": "Kg",
+  "stock_count": "80",
+  "discount": "12",
+  "tax": "15",
+  "images": [
+    "1673078464343-Gobhi-Aloo.jpg"
+  ],
+  "date": "Sat Jan 07 2023 13:31:04 GMT+0530 (India Standard Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63b927ddf9780c7c82970375"
+  },
+  "category_id": "6391df25fb491dd3a51999c3",
+  "sub_category_id": "63b7ed0a83c5679b4982da26",
+  "store_id": "63b145222a870c24333e165a",
+  "name": "Gulab Jamun",
+  "price": "299",
+  "weight": [
+    "1"
+  ],
+  "weight_type": "Kg",
+  "stock_count": "99",
+  "discount": "15",
+  "tax": "17",
+  "images": [
+    "1673078748996-gulab-jamun.jpg",
+    "1673078748997-gulab-jamunn.jpg"
+  ],
+  "date": "Sat Jan 07 2023 13:35:48 GMT+0530 (India Standard Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63b92823f9780c7c82970378"
+  },
+  "category_id": "6391df25fb491dd3a51999c3",
+  "sub_category_id": "63b7ed0a83c5679b4982da26",
+  "store_id": "63b144802a870c24333e164d",
+  "name": "Jalebi",
+  "price": "249",
+  "weight": [
+    "1"
+  ],
+  "weight_type": "Kg",
+  "stock_count": "90",
+  "discount": "7",
+  "tax": "14",
+  "images": [
+    "1673078819952-jalebi.jpg"
+  ],
+  "date": "Sat Jan 07 2023 13:36:59 GMT+0530 (India Standard Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63b9288df9780c7c8297037b"
+  },
+  "category_id": "6391df25fb491dd3a51999c3",
+  "sub_category_id": "63b7ed0a83c5679b4982da26",
+  "store_id": "63b143d22a870c24333e1640",
+  "name": "Kadhi Chawal",
+  "price": "199",
+  "weight": [
+    "375"
+  ],
+  "weight_type": "Gram",
+  "stock_count": "100",
+  "discount": "10",
+  "tax": "12",
+  "images": [
+    "1673078925332-kadhi-chawa.jpg"
+  ],
+  "date": "Sat Jan 07 2023 13:38:45 GMT+0530 (India Standard Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63b928f4f9780c7c8297037e"
+  },
+  "category_id": "6391df25fb491dd3a51999c3",
+  "sub_category_id": "63b7ed0a83c5679b4982da26",
+  "store_id": "63b142f12a870c24333e1633",
+  "name": "Masala Chanana",
+  "price": "299",
+  "weight": [
+    "1"
+  ],
+  "weight_type": "Kg",
+  "stock_count": "49",
+  "discount": "12",
+  "tax": "15",
+  "images": [
+    "1673079028417-Masala-Channa.jpg"
+  ],
+  "date": "Sat Jan 07 2023 13:40:28 GMT+0530 (India Standard Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63b92940f9780c7c82970381"
+  },
+  "category_id": "6391df25fb491dd3a51999c3",
+  "sub_category_id": "63b7ed0a83c5679b4982da26",
+  "store_id": "63b141a42a870c24333e1626",
+  "name": "Matar Paneer",
+  "price": "699",
+  "weight": [
+    "1"
+  ],
+  "weight_type": "Kg",
+  "stock_count": "49",
+  "discount": "11",
+  "tax": "18",
+  "images": [
+    "1673079104680-Matar-Paneer-Lababdaar.jpg"
+  ],
+  "date": "Sat Jan 07 2023 13:41:44 GMT+0530 (India Standard Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63b92a2ff9780c7c82970384"
+  },
+  "category_id": "6391df25fb491dd3a51999c3",
+  "sub_category_id": "63b7ed0a83c5679b4982da26",
+  "store_id": "63b1410f2a870c24333e1619",
+  "name": "Mushroom Kofta in Tomato Gravy",
+  "price": "199",
+  "weight": [
+    "1"
+  ],
+  "weight_type": "Plate",
+  "stock_count": "49",
+  "discount": "11",
+  "tax": "18",
+  "images": [
+    "1673079343317-Mushroom-Kofta-in-Tomato-Gravy.jpg"
+  ],
+  "date": "Sat Jan 07 2023 13:45:43 GMT+0530 (India Standard Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63b92a8ef9780c7c82970387"
+  },
+  "category_id": "6391df25fb491dd3a51999c3",
+  "sub_category_id": "63b7ed0a83c5679b4982da26",
+  "store_id": "63b140a82a870c24333e160c",
+  "name": "Paneer Makhani Biryani",
+  "price": "199",
+  "weight": [
+    "185"
+  ],
+  "weight_type": "Gram",
+  "stock_count": "89",
+  "discount": "10",
+  "tax": "15",
+  "images": [
+    "1673079438691-Paneer Makhani Biryani.jpg"
+  ],
+  "date": "Sat Jan 07 2023 13:47:18 GMT+0530 (India Standard Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63b92b91f9780c7c8297038a"
+  },
+  "category_id": "6391df25fb491dd3a51999c3",
+  "sub_category_id": "63b7ed0a83c5679b4982da26",
+  "store_id": "63b140302a870c24333e15ff",
+  "name": "Paneer Khurchan",
+  "price": "199",
+  "weight": [
+    "1"
+  ],
+  "weight_type": "Kadhai",
+  "stock_count": "99",
+  "discount": "10",
+  "tax": "17",
+  "images": [
+    "1673079697318-Paneer-Khurchan.jpg"
+  ],
+  "date": "Sat Jan 07 2023 13:51:37 GMT+0530 (India Standard Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63b92c06f9780c7c8297038d"
+  },
+  "category_id": "6391df25fb491dd3a51999c3",
+  "sub_category_id": "63b7ed0a83c5679b4982da26",
+  "store_id": "63b13fc82a870c24333e15f2",
+  "name": "Parathe",
+  "price": "10",
+  "weight": [
+    "1"
+  ],
+  "weight_type": "Piece",
+  "stock_count": "99",
+  "discount": "5",
+  "tax": "13",
+  "images": [
+    "1673079814192-parathe.jpg"
+  ],
+  "date": "Sat Jan 07 2023 13:53:34 GMT+0530 (India Standard Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63b92fa913c6abe96a5c66bb"
+  },
+  "category_id": "6391df25fb491dd3a51999c3",
+  "sub_category_id": "63b7ed0a83c5679b4982da26",
+  "store_id": "63b13f5b2a870c24333e15e5",
+  "name": "Pizza",
+  "price": "339",
+  "weight": [
+    "1"
+  ],
+  "weight_type": "Piece",
+  "stock_count": "99",
+  "discount": "5",
+  "tax": "13",
+  "images": [
+    "1673080745460-pizza.jpg",
+    "1673080745461-pizza.png"
+  ],
+  "date": "Sat Jan 07 2023 14:09:05 GMT+0530 (India Standard Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63b9305213c6abe96a5c66be"
+  },
+  "category_id": "6391df25fb491dd3a51999c3",
+  "sub_category_id": "63b7ed0a83c5679b4982da26",
+  "store_id": "63b13edc2a870c24333e15d8",
+  "name": "Punjabi Thali",
+  "price": "149",
+  "weight": [
+    "1"
+  ],
+  "weight_type": "Plate",
+  "stock_count": "99",
+  "discount": "10",
+  "tax": "15",
+  "images": [
+    "1673080914832-punjabi-thalii.jpg"
+  ],
+  "date": "Sat Jan 07 2023 14:11:54 GMT+0530 (India Standard Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63b9309813c6abe96a5c66c1"
+  },
+  "category_id": "6391df25fb491dd3a51999c3",
+  "sub_category_id": "63b7ed0a83c5679b4982da26",
+  "store_id": "63a5b69998da47f27b1ee80d",
+  "name": "Rasmalai",
+  "price": "230",
+  "weight": [
+    "500"
+  ],
+  "weight_type": "Gram",
+  "stock_count": "99",
+  "discount": "8",
+  "tax": "12",
+  "images": [
+    "1673080984855-rasmalai.jpg"
+  ],
+  "date": "Sat Jan 07 2023 14:13:04 GMT+0530 (India Standard Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63b9310513c6abe96a5c66c4"
+  },
+  "category_id": "6391df25fb491dd3a51999c3",
+  "sub_category_id": "63b7ed0a83c5679b4982da26",
+  "store_id": "63a5b62b98da47f27b1ee800",
+  "name": "Razma Chawal",
+  "price": "199",
+  "weight": [
+    "350"
+  ],
+  "weight_type": "Gram",
+  "stock_count": "99",
+  "discount": "8",
+  "tax": "20",
+  "images": [
+    "1673081093850-razma-chawal.jpg"
+  ],
+  "date": "Sat Jan 07 2023 14:14:53 GMT+0530 (India Standard Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63b9314113c6abe96a5c66c7"
+  },
+  "category_id": "6391df25fb491dd3a51999c3",
+  "sub_category_id": "63b7ed0a83c5679b4982da26",
+  "store_id": "63a5b57e98da47f27b1ee7f3",
+  "name": "Samosa",
+  "price": "15",
+  "weight": [
+    "1"
+  ],
+  "weight_type": "Piece",
+  "stock_count": "99",
+  "discount": "5",
+  "tax": "13",
+  "images": [
+    "1673081153648-samosa.jpg"
+  ],
+  "date": "Sat Jan 07 2023 14:15:53 GMT+0530 (India Standard Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63b931c013c6abe96a5c66ca"
+  },
+  "category_id": "6391df25fb491dd3a51999c3",
+  "sub_category_id": "63b7ed0a83c5679b4982da26",
+  "store_id": "63a5b51198da47f27b1ee7e6",
+  "name": "Stuffed Baby EggPlant",
+  "price": "599",
+  "weight": [
+    "660"
+  ],
+  "weight_type": "Gram",
+  "stock_count": "99",
+  "discount": "10",
+  "tax": "18",
+  "images": [
+    "1673081280372-Stuffed-Baby-Eggplant.jpg"
+  ],
+  "date": "Sat Jan 07 2023 14:18:00 GMT+0530 (India Standard Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63b9322013c6abe96a5c66cd"
+  },
+  "category_id": "6391df25fb491dd3a51999c3",
+  "sub_category_id": "63b7ed0a83c5679b4982da26",
+  "store_id": "63a5b2f798da47f27b1ee7d9",
+  "name": "Stuffed Masala Mushroom",
+  "price": "399",
+  "weight": [
+    "260"
+  ],
+  "weight_type": "Gram",
+  "stock_count": "49",
+  "discount": "8",
+  "tax": "16",
+  "images": [
+    "1673081376942-Stuffed-Masala -Mushrooms.jpg"
+  ],
+  "date": "Sat Jan 07 2023 14:19:36 GMT+0530 (India Standard Time)",
+  "__v": 0
+}]

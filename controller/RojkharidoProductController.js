@@ -1,4 +1,6 @@
 const ProductModel = require('../model/RojkharidoProductModel');
+const RojkharidoStoreModel = require('../model/RojkharidoStoreModel');
+const config = require('../config/config');
 
 const addProduct = async (req,res)=>{
 
@@ -52,38 +54,72 @@ const addProduct = async (req,res)=>{
 }
 
 const allProducts = async (req, res) => {
+
+    const latitude = req.body.latitude;
+    const longitude = req.body.longitude;
+    const maxDistance = req.body.maxDistance;
+    const type = req.body.type;
+    const limit = req.body.limit;
+
     try {
-        const product = await ProductModel.find();
-        if (product) {
+        var sendData = [];
 
-            const allProducts = [];
-
-            for (let index = 0; index < product.length; index++) {
-                allProducts.push({
-                    _id: product[index]._id,
-                    category_id: product[index].category_id,
-                    sub_category_id: product[index].sub_category_id,
-                    store_id: product[index].store_id,
-                    name: product[index].name,
-                    price: product[index].price,
-                    weight: product[index].weight,
-                    weight_type: product[index].weight_type,
-                    stock_count: product[index].stock_count,
-                    discount: product[index].discount,
-                    tax: product[index].tax,
-                    type: product[index].type,
-                    image: config.BASE_URL+"RojkharidoProductImages/"+category[index].images,
-                    date: product[index].date,
-                });
+        let storeData = await RojkharidoStoreModel.aggregate([
+            {
+            $geoNear: {
+                near: {
+                    type: "Point",
+                    coordinates: [parseFloat(longitude), parseFloat(latitude)]
+                },
+                distanceField: "distance",
+                maxDistance: maxDistance * 1609,
+                spherical: true
             }
+            }
+        ]).limit(limit);
 
-            res.status(200).send({ success: true, msg: "All products", data: allProducts });
+        if(storeData.length>0){
+            
+            for(let i = 0; i<storeData.length; i++){
+                if(storeData[i].storeType === type){
+                var productData = [];
+                var store_id = storeData[i]['_id'].toString();
+                var productPro = await ProductModel.find({store_id:store_id});
+                if(productPro.length>0){
+                    for(let j = 0; j<productPro.length; j++){
+                        productData.push({
+                            _id: productPro[j]._id,
+                            category_id: productPro[j].category_id,
+                            sub_category_id: productPro[j].sub_category_id,
+                            store_id: productPro[j].store_id,
+                            name: productPro[j].name,
+                            price: productPro[j].price,
+                            weight: productPro[j].weight,
+                            weight_type: productPro[j].weight_type,
+                            stock_count: productPro[j].stock_count,
+                            discount: productPro[j].discount,
+                            tax: productPro[j].tax,
+                            type: productPro[j].type,
+                            storeName: storeData[i]['storeName'],
+                            image: config.BASE_URL+"RojkharidoProductImages/"+productPro[j].images,
+                            date: productPro[j].date,
+                        });
+                    }
+                }
+                sendData.push({
+                    "store":storeData[i]['storeName'],
+                    "product":productData
+                });
+              }
+            }
+            res.status(200).send({success:true,msg:"Product Details",data:sendData});
 
-        } else {
-            res.status(200).send({ success: false, msg: "No products found!" });
+        }else{
+            res.status(200).send({success:false,msg:"No Products!"});
         }
+        
     } catch (error) {
-        res.status(400).send({ success: false, msg: error.message });
+        res.status(400).send({success:false,msg:error.message});
     }
 }
 

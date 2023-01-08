@@ -1,0 +1,121 @@
+[{
+  "_id": {
+    "$oid": "6391defbfb491dd3a51999c0"
+  },
+  "title": "Groceries",
+  "description": "Groceries",
+  "rojkharido_category_image": "1670504187859-grocery.webp",
+  "route": "/groceries",
+  "date": "Thu Dec 08 2022 18:26:27 GMT+0530 (India Standard Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6391df25fb491dd3a51999c3"
+  },
+  "title": "Restaurants",
+  "description": "Restaurants",
+  "rojkharido_category_image": "1670504229231-restaurants.webp",
+  "route": "/restaurants",
+  "date": "Thu Dec 08 2022 18:27:09 GMT+0530 (India Standard Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6391df55fb491dd3a51999c6"
+  },
+  "title": "Refurbished",
+  "description": "Refurbished",
+  "rojkharido_category_image": "1670504277717-refurbished.png",
+  "route": "/refurbished",
+  "date": "Thu Dec 08 2022 18:27:57 GMT+0530 (India Standard Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6391df77fb491dd3a51999c9"
+  },
+  "title": "Softwares",
+  "description": "Softwares",
+  "rojkharido_category_image": "1670504311183-softwares.png",
+  "route": "/softwares",
+  "date": "Thu Dec 08 2022 18:28:31 GMT+0530 (India Standard Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6391dfb8fb491dd3a51999cc"
+  },
+  "title": "Car Tow",
+  "description": "Car Tow",
+  "rojkharido_category_image": "1670504376047-car tow.png",
+  "route": "/towing",
+  "date": "Thu Dec 08 2022 18:29:36 GMT+0530 (India Standard Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6391dfd9fb491dd3a51999cf"
+  },
+  "title": "Laundary",
+  "description": "Laundary",
+  "rojkharido_category_image": "1670504409439-laundary.png",
+  "route": "/laundary",
+  "date": "Thu Dec 08 2022 18:30:09 GMT+0530 (India Standard Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6391e00dfb491dd3a51999d2"
+  },
+  "title": "Services",
+  "description": "Services",
+  "rojkharido_category_image": "1670504461091-services.png",
+  "route": "/household",
+  "date": "Thu Dec 08 2022 18:31:01 GMT+0530 (India Standard Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6391e035fb491dd3a51999d5"
+  },
+  "title": "Book Cab",
+  "description": "Book Cab",
+  "rojkharido_category_image": "1670504501796-book cab.png",
+  "route": "/cabs",
+  "date": "Thu Dec 08 2022 18:31:41 GMT+0530 (India Standard Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6391e069fb491dd3a51999d8"
+  },
+  "title": "Healthcare",
+  "description": "Healthcare",
+  "rojkharido_category_image": "1670504553137-healthcare.png",
+  "route": "/healthcare",
+  "date": "Thu Dec 08 2022 18:32:33 GMT+0530 (India Standard Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6391e087fb491dd3a51999db"
+  },
+  "title": "Travel",
+  "description": "Travel",
+  "rojkharido_category_image": "1670504583389-holiday.png",
+  "route": "/travel",
+  "date": "Thu Dec 08 2022 18:33:03 GMT+0530 (India Standard Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6391e0a7fb491dd3a51999de"
+  },
+  "title": "All Loans",
+  "description": "All Loans",
+  "rojkharido_category_image": "1670504615420-loans.png",
+  "route": "/loans",
+  "date": "Thu Dec 08 2022 18:33:35 GMT+0530 (India Standard Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6391e0c9fb491dd3a51999e1"
+  },
+  "title": "Dating/Movies",
+  "description": "Dating/Movies",
+  "rojkharido_category_image": "1670504649539-dating movies.png",
+  "route": "/dating_movies",
+  "date": "Thu Dec 08 2022 18:34:09 GMT+0530 (India Standard Time)",
+  "__v": 0
+}]

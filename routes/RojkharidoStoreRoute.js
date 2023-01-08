@@ -35,5 +35,6 @@ const rojkharidoStoreController = require('../controller/RojkharidoStoreControll
 store_route.post('/addRojkharidoStore',upload.single('storeImage'), rojkharidoStoreController.addRojkharidoStore);
 store_route.get('/allRojkharidoStore', rojkharidoStoreController.allRojkharidoStore);
 store_route.post('/updateStoreEmailOrPhoneVerified', rojkharidoStoreController.updateStoreEmailOrPhoneVerified);
+store_route.post('/nearestRojkharidoStore', rojkharidoStoreController.nearestRojkharidoStore);
 
 module.exports = store_route;

@@ -53,14 +53,6 @@ const AddStore = mongoose.Schema({
         type: String,
         required: true
     },
-    latitude: {
-        type: String,
-        required: true
-    },
-    longitude: {
-        type: String,
-        required: true
-    },
     addedFrom: {
         type: String,
         required: true
@@ -85,6 +77,12 @@ const AddStore = mongoose.Schema({
         type: String,
         required: true
     },
+    location:{
+        type:{type:String, required:true},
+        coordinates:[]
+    }
 });
+
+AddStore.index({location:"2dsphere"});
 
 module.exports = mongoose.model("Store", AddStore);

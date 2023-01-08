@@ -82,8 +82,13 @@ const addRojkharidoStore = async (req, res) => {
                 landmark: landmark,
                 streetAddress: streetAddress,
                 fullAddress: fullAddress,
-                latitude: latitude,
-                longitude: longitude,
+                location: {
+                    type:"Point",
+                    coordinates:[
+                        parseFloat(latitude),
+                        parseFloat(longitude)
+                    ]
+                },
                 addedFrom: addedFrom,
                 addedBy: addedBy,
                 storeType: storeType,
@@ -295,8 +300,76 @@ const allRojkharidoStore = async (req, res) => {
     }
 }
 
+const nearestRojkharidoStore = async (req, res) => {
+
+    const type = req.body.type;
+    const limit = req.body.limit;
+
+    const latitude = req.body.latitude;
+    const longitude = req.body.longitude;
+    const maxDistance = req.body.maxDistance;
+
+    try {
+
+        let store = await RojkharidoStoreModel.aggregate([
+            {
+               $geoNear: {
+                  near: {
+                     type: "Point",
+                     coordinates: [parseFloat(longitude), parseFloat(latitude)]
+                  },
+                  distanceField: "distance",
+                  maxDistance: maxDistance * 1609,
+                  spherical: true
+               }
+            }
+         ]).limit(limit);
+
+        if (store) {
+
+            const allStores = [];
+            for (let index = 0; index < store.length; index++) {
+                if(store[index].storeType === type){
+                allStores.push({
+                    _id: store[index]._id,
+                    storeImage: config.BASE_URL + "RojkharidoStroreImages/" + store[index].storeImage,
+                    storeName: store[index].storeName,
+                    storeMobile: store[index].storeMobile,
+                    storeEmail: store[index].storeEmail,
+                    storePassword: store[index].storePassword,
+                    deliveryCharge: store[index].deliveryCharge,
+                    storeTiming: store[index].storeTiming,
+                    pincode: store[index].pincode,
+                    estimatedDeliveryTime: store[index].estimatedDeliveryTime,
+                    otherTax: store[index].otherTax,
+                    landmark: store[index].landmark,
+                    streetAddress: store[index].streetAddress,
+                    fullAddress: store[index].fullAddress,
+                    latitude: store[index].latitude,
+                    longitude: store[index].longitude,
+                    distance: Math.floor(store[index].distance/1000)!==0?Math.floor(store[index].distance/1000):0.5,
+                    addedFrom: store[index].addedFrom,
+                    addedBy: store[index].addedBy,
+                    storeType: store[index].storeType,
+                    isMobileVerified: store[index].isMobileVerified,
+                    isEmailVerified: store[index].isEmailVerified,
+                    date: store[index].date,
+                });
+              }  
+            }
+
+            res.status(200).send({ success: true, msg: "All Rojkharido stores", data: allStores });
+        } else {
+            res.status(200).send({ success: false, msg: "No stores found!" });
+        }
+    } catch (error) {
+        res.status(400).send({ success: false, msg: error.message });
+    }
+}
+
 module.exports = {
     addRojkharidoStore,
     allRojkharidoStore,
-    updateStoreEmailOrPhoneVerified
+    updateStoreEmailOrPhoneVerified,
+    nearestRojkharidoStore
 }
