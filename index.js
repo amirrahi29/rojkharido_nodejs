@@ -61,6 +61,10 @@ app.use('/api',restaurant_route);
 const grocery_route = require('./routes/GroceryRoute');
 app.use('/api',grocery_route);
 
+//banner route
+const banner_route = require('./routes/RojkharidoBannerRoute');
+app.use('/api',banner_route);
+
 
 
 //start server
