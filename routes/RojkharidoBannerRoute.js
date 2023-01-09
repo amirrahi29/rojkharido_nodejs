@@ -33,6 +33,6 @@ const rojkharidoBannerController = require('../controller/RojkharidoBannerContro
 
 //api
 rojkharido_banner_route.post('/addRojkharidoBanner',upload.single('rojkharido_banner_image'), rojkharidoBannerController.addRojkharidoBanner);
-rojkharido_banner_route.get('/allRojkharidoBanner', rojkharidoBannerController.allRojkharidoBanner);
+rojkharido_banner_route.post('/allRojkharidoBanner', rojkharidoBannerController.allRojkharidoBanner);
 
 module.exports = rojkharido_banner_route;

@@ -92,7 +92,7 @@ const allnearestStoresProducts = async (req, res) => {
                             store_id: productPro[j].store_id,
                             name: productPro[j].name,
                             price: productPro[j].price,
-                            weight: productPro[j].weight,
+                            weight: productPro[j].weight[0],
                             weight_type: productPro[j].weight_type,
                             stock_count: productPro[j].stock_count,
                             discount: productPro[j].discount,

@@ -37,8 +37,9 @@ const addRojkharidoBanner = async (req, res) => {
 
 const allRojkharidoBanner = async (req, res) => {
 
+    const limit = req.body.limit;
     try {
-        const banner = await RojkharidoBannerModel.find();
+        const banner = await RojkharidoBannerModel.find().limit(limit);
         if (banner) {
 
             const allbanners = [];
