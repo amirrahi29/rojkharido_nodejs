@@ -99,6 +99,7 @@ const allnearestStoresProducts = async (req, res) => {
                             tax: productPro[j].tax,
                             type: productPro[j].type,
                             storeName: storeData[i]['storeName'],
+                            storeId: storeData[i]['_id'],
                             image: config.BASE_URL+"RojkharidoProductImages/"+productPro[j].images[0],
                             date: productPro[j].date,
                         });
