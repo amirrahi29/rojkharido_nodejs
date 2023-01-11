@@ -120,6 +120,78 @@ const allnearestStoresProducts = async (req, res) => {
     }
 }
 
+const allnearestCategoryStoresProducts = async (req, res) => {
+
+    const latitude = req.body.latitude;
+    const longitude = req.body.longitude;
+    const maxDistance = req.body.maxDistance;
+    const type = req.body.type;
+    const pageLimit = req.body.limit;
+    const page = req.body.page;
+    const sub_category_id = req.body.sub_category_id;
+
+    try {
+        let storeData = await RojkharidoStoreModel.aggregate([
+            {
+                $geoNear: {
+                    near: {
+                        type: "Point",
+                        coordinates: [parseFloat(longitude), parseFloat(latitude)]
+                    },
+                    distanceField: "distance",
+                    maxDistance: maxDistance * 1609,
+                    spherical: true
+                }
+            }
+        ]);
+        var productData = [];
+        if (storeData.length > 0) {
+            let productCount = 0;
+            for (let i = 0; i < storeData.length; i++) {
+                if (storeData[i].storeType === type) {
+
+                    var store_id = storeData[i]['_id'].toString();
+                    var productPro = await ProductModel.find({ store_id: store_id });
+                    if (productPro.length > 0) {
+                        for (let j = 0; j < productPro.length; j++) {
+                            if (sub_category_id === productPro[j].sub_category_id) {
+                                if (productCount >= (page - 1) * pageLimit && productCount < page * pageLimit) {
+                                    productData.push({
+                                        _id: productPro[j]._id,
+                                        category_id: productPro[j].category_id,
+                                        sub_category_id: productPro[j].sub_category_id,
+                                        store_id: productPro[j].store_id,
+                                        name: productPro[j].name,
+                                        price: productPro[j].price,
+                                        weight: productPro[j].weight[0],
+                                        weight_type: productPro[j].weight_type,
+                                        stock_count: productPro[j].stock_count,
+                                        discount: productPro[j].discount,
+                                        tax: productPro[j].tax,
+                                        type: productPro[j].type,
+                                        storeName: storeData[i]['storeName'],
+                                        storeId: storeData[i]['_id'],
+                                        image: config.BASE_URL + "RojkharidoProductImages/" + productPro[j].images[0],
+                                        date: productPro[j].date,
+                                    });
+                                }
+                                productCount++;
+                            }
+                        }
+                    }
+
+                }
+            }
+            res.status(200).send({ success: true, msg: "All products", total: productCount, data: productData });
+        } else {
+            res.status(200).send({ success: false, msg: "No Products!", data: productData });
+        }
+
+    } catch (error) {
+        res.status(400).send({ success: false, msg: error.message });
+    }
+}
+
 const allnearestStoresProductsPriceRange = async (req, res) => {
 
     const latitude = req.body.latitude;
@@ -154,7 +226,7 @@ const allnearestStoresProductsPriceRange = async (req, res) => {
                     var productPro = await ProductModel.find({ store_id: store_id });
                     if (productPro.length > 0) {
                         for (let j = 0; j < productPro.length; j++) {
-                            if(priceRange>Number(productPro[j].price)){
+                            if (priceRange > Number(productPro[j].price)) {
                                 if (productCount >= (page - 1) * pageLimit && productCount < page * pageLimit) {
                                     productData.push({
                                         _id: productPro[j]._id,
@@ -177,7 +249,7 @@ const allnearestStoresProductsPriceRange = async (req, res) => {
                                 }
                                 productCount++;
                             }
-                          
+
                         }
                     }
                 }
@@ -195,5 +267,6 @@ const allnearestStoresProductsPriceRange = async (req, res) => {
 module.exports = {
     addProduct,
     allnearestStoresProducts,
-    allnearestStoresProductsPriceRange
+    allnearestStoresProductsPriceRange,
+    allnearestCategoryStoresProducts
 }
