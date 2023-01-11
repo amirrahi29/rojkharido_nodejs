@@ -568,4 +568,1517 @@
   ],
   "date": "Sat Jan 07 2023 14:19:36 GMT+0530 (India Standard Time)",
   "__v": 0
+},{
+  "_id": {
+    "$oid": "63bd7f5608b3d2030262b550"
+  },
+  "category_id": "6391df25fb491dd3a51999c3",
+  "sub_category_id": "63b7ed4583c5679b4982da29",
+  "store_id": "63a2fd16d7b6cc7df588b004",
+  "name": "Aadu Attipathal",
+  "price": "999",
+  "weight": [
+    "300"
+  ],
+  "weight_type": "Gram",
+  "stock_count": "99",
+  "discount": "10",
+  "tax": "15",
+  "images": [
+    "1673363286418-Aadu-Attipathal.jpg"
+  ],
+  "date": "Tue Jan 10 2023 20:38:06 GMT+0530 (India Standard Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63bd7fd208b3d2030262b553"
+  },
+  "category_id": "6391df25fb491dd3a51999c3",
+  "sub_category_id": "63b7ed4583c5679b4982da29",
+  "store_id": "63a2fdc3d7b6cc7df588b011",
+  "name": "Alleppey Fish Curry",
+  "price": "599",
+  "weight": [
+    "4"
+  ],
+  "weight_type": "Piece",
+  "stock_count": "99",
+  "discount": "12",
+  "tax": "18",
+  "images": [
+    "1673363410273-Alleppey-Fish-Curry.jpg"
+  ],
+  "date": "Tue Jan 10 2023 20:40:10 GMT+0530 (India Standard Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63bd802208b3d2030262b556"
+  },
+  "category_id": "6391df25fb491dd3a51999c3",
+  "sub_category_id": "63b7ed4583c5679b4982da29",
+  "store_id": "63a2fe21d7b6cc7df588b01e",
+  "name": "Appam  and Chicken Stew",
+  "price": "299",
+  "weight": [
+    "1"
+  ],
+  "weight_type": "Plate",
+  "stock_count": "49",
+  "discount": "13",
+  "tax": "13",
+  "images": [
+    "1673363490591-Appam -and-Chicken-Stew.jpg"
+  ],
+  "date": "Tue Jan 10 2023 20:41:30 GMT+0530 (India Standard Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63bd807708b3d2030262b559"
+  },
+  "category_id": "6391df25fb491dd3a51999c3",
+  "sub_category_id": "63b7ed4583c5679b4982da29",
+  "store_id": "63a2fe7ad7b6cc7df588b02b",
+  "name": "Appam and Crab  Masala",
+  "price": "199",
+  "weight": [
+    "2"
+  ],
+  "weight_type": "Piece",
+  "stock_count": "49",
+  "discount": "8",
+  "tax": "15",
+  "images": [
+    "1673363575092-Appam-and-Crab -Masala.jpg"
+  ],
+  "date": "Tue Jan 10 2023 20:42:55 GMT+0530 (India Standard Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63bd810208b3d2030262b55c"
+  },
+  "category_id": "6391df25fb491dd3a51999c3",
+  "sub_category_id": "63b7ed4583c5679b4982da29",
+  "store_id": "63a2ff38d7b6cc7df588b038",
+  "name": "Appam and Mutton  Stew",
+  "price": "210",
+  "weight": [
+    "1"
+  ],
+  "weight_type": "Person",
+  "stock_count": "49",
+  "discount": "10",
+  "tax": "12",
+  "images": [
+    "1673363714402-Appam-and-Mutton -Stew.jpg"
+  ],
+  "date": "Tue Jan 10 2023 20:45:14 GMT+0530 (India Standard Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63bd816408b3d2030262b55f"
+  },
+  "category_id": "6391df25fb491dd3a51999c3",
+  "sub_category_id": "63b7ed4583c5679b4982da29",
+  "store_id": "63a2ffc0d7b6cc7df588b045",
+  "name": "Arikkadukka",
+  "price": "15",
+  "weight": [
+    "1"
+  ],
+  "weight_type": "Unit",
+  "stock_count": "49",
+  "discount": "12",
+  "tax": "14",
+  "images": [
+    "1673363812296-Arikkadukka.jpg"
+  ],
+  "date": "Tue Jan 10 2023 20:46:52 GMT+0530 (India Standard Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63bd84fd08b3d2030262b562"
+  },
+  "category_id": "6391df25fb491dd3a51999c3",
+  "sub_category_id": "63b7ed4583c5679b4982da29",
+  "store_id": "63a5afe898da47f27b1ee7a1",
+  "name": "Beef Fry",
+  "price": "199",
+  "weight": [
+    "240"
+  ],
+  "weight_type": "Gram",
+  "stock_count": "49",
+  "discount": "10",
+  "tax": "12",
+  "images": [
+    "1673364733019-Beef-Fry.jpg"
+  ],
+  "date": "Tue Jan 10 2023 21:02:13 GMT+0530 (India Standard Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63bd853d08b3d2030262b565"
+  },
+  "category_id": "6391df25fb491dd3a51999c3",
+  "sub_category_id": "63b7ed4583c5679b4982da29",
+  "store_id": "63a5b07398da47f27b1ee7ae",
+  "name": "Beef Kurumulakittathu",
+  "price": "99",
+  "weight": [
+    "150"
+  ],
+  "weight_type": "Kg",
+  "stock_count": "49",
+  "discount": "15",
+  "tax": "8",
+  "images": [
+    "1673364797653-Beef-Kurumulakittathu.jpg"
+  ],
+  "date": "Tue Jan 10 2023 21:03:17 GMT+0530 (India Standard Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63bd857608b3d2030262b568"
+  },
+  "category_id": "6391df25fb491dd3a51999c3",
+  "sub_category_id": "63b7ed4583c5679b4982da29",
+  "store_id": "63a5b0e198da47f27b1ee7bb",
+  "name": "Beef Ularthiyathu",
+  "price": "749",
+  "weight": [
+    "1"
+  ],
+  "weight_type": "Kg",
+  "stock_count": "49",
+  "discount": "8",
+  "tax": "20",
+  "images": [
+    "1673364854018-Beef-Ularthiyathu.jpg"
+  ],
+  "date": "Tue Jan 10 2023 21:04:14 GMT+0530 (India Standard Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63bd85d508b3d2030262b56b"
+  },
+  "category_id": "6391df25fb491dd3a51999c3",
+  "sub_category_id": "63b7ed4583c5679b4982da29",
+  "store_id": "63a5b1ac98da47f27b1ee7cc",
+  "name": "Chemmeen Kari or Prawn Curry",
+  "price": "149",
+  "weight": [
+    "200"
+  ],
+  "weight_type": "Gram",
+  "stock_count": "49",
+  "discount": "5",
+  "tax": "15",
+  "images": [
+    "1673364949570-Chemmeen-Kari-or-Prawn-Curry.jpg"
+  ],
+  "date": "Tue Jan 10 2023 21:05:49 GMT+0530 (India Standard Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63bd863708b3d2030262b56e"
+  },
+  "category_id": "6391df25fb491dd3a51999c3",
+  "sub_category_id": "63b7ed4583c5679b4982da29",
+  "store_id": "63a5b2f798da47f27b1ee7d9",
+  "name": "Chemmeen Moilee",
+  "price": "199",
+  "weight": [
+    "200"
+  ],
+  "weight_type": "Gram",
+  "stock_count": "49",
+  "discount": "8",
+  "tax": "12",
+  "images": [
+    "1673365047589-Chemmeen-Moilee.jpg"
+  ],
+  "date": "Tue Jan 10 2023 21:07:27 GMT+0530 (India Standard Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63bd868508b3d2030262b571"
+  },
+  "category_id": "6391df25fb491dd3a51999c3",
+  "sub_category_id": "63b7ed4583c5679b4982da29",
+  "store_id": "63a5b51198da47f27b1ee7e6",
+  "name": "Chemmeen Muringakka Curry",
+  "price": "399",
+  "weight": [
+    "280"
+  ],
+  "weight_type": "Gram",
+  "stock_count": "99",
+  "discount": "10",
+  "tax": "17",
+  "images": [
+    "1673365125658-Chemmeen-Muringakka-Curry.jpg"
+  ],
+  "date": "Tue Jan 10 2023 21:08:45 GMT+0530 (India Standard Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63bd86c008b3d2030262b574"
+  },
+  "category_id": "6391df25fb491dd3a51999c3",
+  "sub_category_id": "63b7ed4583c5679b4982da29",
+  "store_id": "63a5b57e98da47f27b1ee7f3",
+  "name": "Chemmeen Thullichathu",
+  "price": "249",
+  "weight": [
+    "1"
+  ],
+  "weight_type": "Kg",
+  "stock_count": "49",
+  "discount": "12",
+  "tax": "15",
+  "images": [
+    "1673365184595-Chemmeen-Thullichathu.jpg"
+  ],
+  "date": "Tue Jan 10 2023 21:09:44 GMT+0530 (India Standard Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63bd872d08b3d2030262b577"
+  },
+  "category_id": "6391df25fb491dd3a51999c3",
+  "sub_category_id": "63b7ed4583c5679b4982da29",
+  "store_id": "63a5b62b98da47f27b1ee800",
+  "name": "Chicken Curry",
+  "price": "699",
+  "weight": [
+    "1"
+  ],
+  "weight_type": "Kg",
+  "stock_count": "49",
+  "discount": "8",
+  "tax": "14",
+  "images": [
+    "1673365293805-Chicken-Curry.jpg"
+  ],
+  "date": "Tue Jan 10 2023 21:11:33 GMT+0530 (India Standard Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63bd877d08b3d2030262b57a"
+  },
+  "category_id": "6391df25fb491dd3a51999c3",
+  "sub_category_id": "63b7ed4583c5679b4982da29",
+  "store_id": "63a5b69998da47f27b1ee80d",
+  "name": "Chicken Mint Roast",
+  "price": "899",
+  "weight": [
+    "1"
+  ],
+  "weight_type": "Kg",
+  "stock_count": "99",
+  "discount": "10",
+  "tax": "16",
+  "images": [
+    "1673365373617-Chicken-Mint-Roast.jpg"
+  ],
+  "date": "Tue Jan 10 2023 21:12:53 GMT+0530 (India Standard Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63bd87ed08b3d2030262b57d"
+  },
+  "category_id": "6391df25fb491dd3a51999c3",
+  "sub_category_id": "63b7ed4583c5679b4982da29",
+  "store_id": "63b13edc2a870c24333e15d8",
+  "name": "Chicken Pepper Fry",
+  "price": "99",
+  "weight": [
+    "1"
+  ],
+  "weight_type": "Pack",
+  "stock_count": "69",
+  "discount": "12",
+  "tax": "13",
+  "images": [
+    "1673365485966-Chicken-Pepper-Fry.jpg"
+  ],
+  "date": "Tue Jan 10 2023 21:14:45 GMT+0530 (India Standard Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63bd888008b3d2030262b580"
+  },
+  "category_id": "6391df25fb491dd3a51999c3",
+  "sub_category_id": "63b7ed4583c5679b4982da29",
+  "store_id": "63b13f5b2a870c24333e15e5",
+  "name": "Chicken Thoran",
+  "price": "99",
+  "weight": [
+    "1"
+  ],
+  "weight_type": "Plate",
+  "stock_count": "99",
+  "discount": "10",
+  "tax": "20",
+  "images": [
+    "1673365632612-Chicken-Thoran.jpg"
+  ],
+  "date": "Tue Jan 10 2023 21:17:12 GMT+0530 (India Standard Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63bd890108b3d2030262b583"
+  },
+  "category_id": "6391df25fb491dd3a51999c3",
+  "sub_category_id": "63b7ed4583c5679b4982da29",
+  "store_id": "63b13fc82a870c24333e15f2",
+  "name": "Chilli Garlic Prawns",
+  "price": "99",
+  "weight": [
+    "1"
+  ],
+  "weight_type": "Person",
+  "stock_count": "49",
+  "discount": "12",
+  "tax": "15",
+  "images": [
+    "1673365761491-Chilli-Garlic-Prawns.jpg"
+  ],
+  "date": "Tue Jan 10 2023 21:19:21 GMT+0530 (India Standard Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63bd898c08b3d2030262b586"
+  },
+  "category_id": "6391df25fb491dd3a51999c3",
+  "sub_category_id": "63b7ed4583c5679b4982da29",
+  "store_id": "63b140302a870c24333e15ff",
+  "name": "Chuttirachi or Grilled Beef",
+  "price": "1200",
+  "weight": [
+    "2"
+  ],
+  "weight_type": "People",
+  "stock_count": "99",
+  "discount": "10",
+  "tax": "18",
+  "images": [
+    "1673365900370-Chuttirachi-or-Grilled-Beef.jpg"
+  ],
+  "date": "Tue Jan 10 2023 21:21:40 GMT+0530 (India Standard Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63bd8a3208b3d2030262b589"
+  },
+  "category_id": "6391df25fb491dd3a51999c3",
+  "sub_category_id": "63b7ed4583c5679b4982da29",
+  "store_id": "63b140a82a870c24333e160c",
+  "name": "Cochin Mutton Soup",
+  "price": "599",
+  "weight": [
+    "2"
+  ],
+  "weight_type": "People",
+  "stock_count": "99",
+  "discount": "12",
+  "tax": "12",
+  "images": [
+    "1673366066280-Cochin-Mutton-Soup.jpg"
+  ],
+  "date": "Tue Jan 10 2023 21:24:26 GMT+0530 (India Standard Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63bd8a8208b3d2030262b58c"
+  },
+  "category_id": "6391df25fb491dd3a51999c3",
+  "sub_category_id": "63b7ed4583c5679b4982da29",
+  "store_id": "63b1410f2a870c24333e1619",
+  "name": "Dry Fish Curry",
+  "price": "399",
+  "weight": [
+    "2"
+  ],
+  "weight_type": "Kg",
+  "stock_count": "99",
+  "discount": "8",
+  "tax": "125",
+  "images": [
+    "1673366146040-Dry-Fish-Curry.jpg"
+  ],
+  "date": "Tue Jan 10 2023 21:25:46 GMT+0530 (India Standard Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63bd8af908b3d2030262b58f"
+  },
+  "category_id": "6391df25fb491dd3a51999c3",
+  "sub_category_id": "63b7ed4583c5679b4982da29",
+  "store_id": "63b141a42a870c24333e1626",
+  "name": "Dry Prawns with Cabbage",
+  "price": "175",
+  "weight": [
+    "100"
+  ],
+  "weight_type": "Gram",
+  "stock_count": "49",
+  "discount": "10",
+  "tax": "16",
+  "images": [
+    "1673366265050-Dry-Prawns-with-Cabbage.jpg"
+  ],
+  "date": "Tue Jan 10 2023 21:27:45 GMT+0530 (India Standard Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63bd8b6208b3d2030262b592"
+  },
+  "category_id": "6391df25fb491dd3a51999c3",
+  "sub_category_id": "63b7ed4583c5679b4982da29",
+  "store_id": "63b142f12a870c24333e1633",
+  "name": "Duck Mappas",
+  "price": "199",
+  "weight": [
+    "200"
+  ],
+  "weight_type": "Gram",
+  "stock_count": "49",
+  "discount": "8",
+  "tax": "17",
+  "images": [
+    "1673366370390-Duck-Mappas.jpg"
+  ],
+  "date": "Tue Jan 10 2023 21:29:30 GMT+0530 (India Standard Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63bd8c8b08b3d2030262b595"
+  },
+  "category_id": "6391df25fb491dd3a51999c3",
+  "sub_category_id": "63b7ed4583c5679b4982da29",
+  "store_id": "63b143d22a870c24333e1640",
+  "name": "Duck Roast",
+  "price": "1100",
+  "weight": [
+    "1",
+    "2"
+  ],
+  "weight_type": "Piece",
+  "stock_count": "49",
+  "discount": "10",
+  "tax": "15",
+  "images": [
+    "1673366667750-Duck-Roast.jpg"
+  ],
+  "date": "Tue Jan 10 2023 21:34:27 GMT+0530 (India Standard Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63bd8d5f08b3d2030262b598"
+  },
+  "category_id": "6391df25fb491dd3a51999c3",
+  "sub_category_id": "63b7ed4583c5679b4982da29",
+  "store_id": "63b144802a870c24333e164d",
+  "name": "Egg Cutlet",
+  "price": "230",
+  "weight": [
+    "1"
+  ],
+  "weight_type": "Kg",
+  "stock_count": "99",
+  "discount": "11",
+  "tax": "18",
+  "images": [
+    "1673366879751-Egg-Cutlet.jpg"
+  ],
+  "date": "Tue Jan 10 2023 21:37:59 GMT+0530 (India Standard Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63bd8d9f08b3d2030262b59b"
+  },
+  "category_id": "6391df25fb491dd3a51999c3",
+  "sub_category_id": "63b7ed4583c5679b4982da29",
+  "store_id": "63b145222a870c24333e165a",
+  "name": "Egg-Koottu",
+  "price": "9",
+  "weight": [
+    "1"
+  ],
+  "weight_type": "Piece",
+  "stock_count": "99",
+  "discount": "8",
+  "tax": "15",
+  "images": [
+    "1673366943341-Egg-Koottu.jpg"
+  ],
+  "date": "Tue Jan 10 2023 21:39:03 GMT+0530 (India Standard Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63bd8ddf08b3d2030262b59e"
+  },
+  "category_id": "6391df25fb491dd3a51999c3",
+  "sub_category_id": "63b7ed4583c5679b4982da29",
+  "store_id": "63b1461b2a870c24333e1667",
+  "name": "Erachi Vada",
+  "price": "240",
+  "weight": [
+    "1"
+  ],
+  "weight_type": "Piece",
+  "stock_count": "99",
+  "discount": "14",
+  "tax": "20",
+  "images": [
+    "1673367007343-Erachi-Vada.jpg"
+  ],
+  "date": "Tue Jan 10 2023 21:40:07 GMT+0530 (India Standard Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63bd8e3e08b3d2030262b5a1"
+  },
+  "category_id": "6391df25fb491dd3a51999c3",
+  "sub_category_id": "63b7ed4583c5679b4982da29",
+  "store_id": "63b146942a870c24333e1674",
+  "name": "Finger Prawns",
+  "price": "450",
+  "weight": [
+    "1"
+  ],
+  "weight_type": "Kg",
+  "stock_count": "99",
+  "discount": "8",
+  "tax": "15",
+  "images": [
+    "1673367102088-Finger-Prawns.jpg"
+  ],
+  "date": "Tue Jan 10 2023 21:41:42 GMT+0530 (India Standard Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63bd8e8308b3d2030262b5a4"
+  },
+  "category_id": "6391df25fb491dd3a51999c3",
+  "sub_category_id": "63b7ed4583c5679b4982da29",
+  "store_id": "63b147412a870c24333e1681",
+  "name": "Fish Curry",
+  "price": "199",
+  "weight": [
+    "100"
+  ],
+  "weight_type": "Gram",
+  "stock_count": "99",
+  "discount": "5",
+  "tax": "12",
+  "images": [
+    "1673367171278-Fish-Curry.jpg"
+  ],
+  "date": "Tue Jan 10 2023 21:42:51 GMT+0530 (India Standard Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63bd8ecf08b3d2030262b5a7"
+  },
+  "category_id": "6391df25fb491dd3a51999c3",
+  "sub_category_id": "63b7ed4583c5679b4982da29",
+  "store_id": "63b148222a870c24333e168e",
+  "name": "Fish in shredded coconut",
+  "price": "150",
+  "weight": [
+    "100"
+  ],
+  "weight_type": "Gram",
+  "stock_count": "99",
+  "discount": "9",
+  "tax": "14",
+  "images": [
+    "1673367247943-Fish-in-shredded-coconut.jpg"
+  ],
+  "date": "Tue Jan 10 2023 21:44:07 GMT+0530 (India Standard Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63bd8f1b08b3d2030262b5aa"
+  },
+  "category_id": "6391df25fb491dd3a51999c3",
+  "sub_category_id": "63b7ed4583c5679b4982da29",
+  "store_id": "63b1490b2a870c24333e169b",
+  "name": "Fish Mappas",
+  "price": "400",
+  "weight": [
+    "2"
+  ],
+  "weight_type": "People",
+  "stock_count": "99",
+  "discount": "10",
+  "tax": "18",
+  "images": [
+    "1673367323674-Fish-Mappas.jpg"
+  ],
+  "date": "Tue Jan 10 2023 21:45:23 GMT+0530 (India Standard Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63bd8f8108b3d2030262b5ad"
+  },
+  "category_id": "6391df25fb491dd3a51999c3",
+  "sub_category_id": "63b7ed4583c5679b4982da29",
+  "store_id": "63b149bb2a870c24333e16a8",
+  "name": "Fish-Moilee",
+  "price": "489",
+  "weight": [
+    "100"
+  ],
+  "weight_type": "Gram",
+  "stock_count": "99",
+  "discount": "10",
+  "tax": "15",
+  "images": [
+    "1673367425507-Fish-Moilee.jpg"
+  ],
+  "date": "Tue Jan 10 2023 21:47:05 GMT+0530 (India Standard Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63bd8fe308b3d2030262b5b0"
+  },
+  "category_id": "6391df25fb491dd3a51999c3",
+  "sub_category_id": "63b7ed4583c5679b4982da29",
+  "store_id": "63b14c152a870c24333e16b5",
+  "name": "Fish Pathiri",
+  "price": "200",
+  "weight": [
+    "1"
+  ],
+  "weight_type": "Kg",
+  "stock_count": "99",
+  "discount": "12",
+  "tax": "12",
+  "images": [
+    "1673367523065-Fish-Pathiri.jpg"
+  ],
+  "date": "Tue Jan 10 2023 21:48:43 GMT+0530 (India Standard Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63bd907208b3d2030262b5b3"
+  },
+  "category_id": "6391df25fb491dd3a51999c3",
+  "sub_category_id": "63b7ed4583c5679b4982da29",
+  "store_id": "63b14cd12a870c24333e16c2",
+  "name": "Fish Surka Masala",
+  "price": "80",
+  "weight": [
+    "1"
+  ],
+  "weight_type": "Packet",
+  "stock_count": "99",
+  "discount": "8",
+  "tax": "16",
+  "images": [
+    "1673367666555-Fish-Surka-Masala.jpg"
+  ],
+  "date": "Tue Jan 10 2023 21:51:06 GMT+0530 (India Standard Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63bd90b608b3d2030262b5b6"
+  },
+  "category_id": "6391df25fb491dd3a51999c3",
+  "sub_category_id": "63b7ed4583c5679b4982da29",
+  "store_id": "63b14d462a870c24333e16cf",
+  "name": "Ginger feathered tiger Prawns",
+  "price": "600",
+  "weight": [
+    "1"
+  ],
+  "weight_type": "Kg",
+  "stock_count": "99",
+  "discount": "10",
+  "tax": "15",
+  "images": [
+    "1673367734400-Ginger-feathered-tiger-Prawns.jpg"
+  ],
+  "date": "Tue Jan 10 2023 21:52:14 GMT+0530 (India Standard Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63bd911208b3d2030262b5b9"
+  },
+  "category_id": "6391df25fb491dd3a51999c3",
+  "sub_category_id": "63b7ed4583c5679b4982da29",
+  "store_id": "63b14db12a870c24333e16e4",
+  "name": "Golden Fried Prawns",
+  "price": "300",
+  "weight": [
+    "1"
+  ],
+  "weight_type": "Person",
+  "stock_count": "99",
+  "discount": "8",
+  "tax": "16",
+  "images": [
+    "1673367826138-Golden-Fried-Prawns.jpg"
+  ],
+  "date": "Tue Jan 10 2023 21:53:46 GMT+0530 (India Standard Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63bd91b708b3d2030262b5bc"
+  },
+  "category_id": "6391df25fb491dd3a51999c3",
+  "sub_category_id": "63b7ed4583c5679b4982da29",
+  "store_id": "63b150702a870c24333e16f1",
+  "name": "Golden-Fried-Prawns",
+  "price": "300",
+  "weight": [
+    "1"
+  ],
+  "weight_type": "Person",
+  "stock_count": "99",
+  "discount": "7",
+  "tax": "14",
+  "images": [
+    "1673367991520-Golden-Fried-Prawns.jpg"
+  ],
+  "date": "Tue Jan 10 2023 21:56:31 GMT+0530 (India Standard Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63bd93c208b3d2030263446e"
+  },
+  "category_id": "6391df25fb491dd3a51999c3",
+  "sub_category_id": "63b7ed4583c5679b4982da29",
+  "store_id": "63b150702a870c24333e16f1",
+  "name": "Green-Masala-Fried-Karimeen",
+  "price": "309",
+  "weight": [
+    "1"
+  ],
+  "weight_type": "Plate",
+  "stock_count": "99",
+  "discount": "10",
+  "tax": "18",
+  "images": [
+    "1673368514415-Green-Masala-Fried-Karimeen.jpg"
+  ],
+  "date": "Tue Jan 10 2023 22:05:14 GMT+0530 (India Standard Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63bd941c08b3d203026363f7"
+  },
+  "category_id": "6391df25fb491dd3a51999c3",
+  "sub_category_id": "63b7ed4583c5679b4982da29",
+  "store_id": "63b14db12a870c24333e16e4",
+  "name": "Grilled Chicken",
+  "price": "55",
+  "weight": [
+    "1"
+  ],
+  "weight_type": "Piece",
+  "stock_count": "99",
+  "discount": "12",
+  "tax": "16",
+  "images": [
+    "1673368604915-Grilled-Chicken.jpg"
+  ],
+  "date": "Tue Jan 10 2023 22:06:44 GMT+0530 (India Standard Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63bd947808b3d203026383a6"
+  },
+  "category_id": "6391df25fb491dd3a51999c3",
+  "sub_category_id": "63b7ed4583c5679b4982da29",
+  "store_id": "63b14d462a870c24333e16cf",
+  "name": "Idiyappam and Egg Roast",
+  "price": "185",
+  "weight": [
+    "1"
+  ],
+  "weight_type": "Piece",
+  "stock_count": "99",
+  "discount": "8",
+  "tax": "14",
+  "images": [
+    "1673368696625-Idiyappam-and-Egg-Roast.jpg"
+  ],
+  "date": "Tue Jan 10 2023 22:08:16 GMT+0530 (India Standard Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63bd94b508b3d20302639743"
+  },
+  "category_id": "6391df25fb491dd3a51999c3",
+  "sub_category_id": "63b7ed4583c5679b4982da29",
+  "store_id": "63b14cd12a870c24333e16c2",
+  "name": "Irachi Pathal",
+  "price": "300",
+  "weight": [
+    "2"
+  ],
+  "weight_type": "People",
+  "stock_count": "99",
+  "discount": "8",
+  "tax": "18",
+  "images": [
+    "1673368757951-Irachi-Pathal.jpg"
+  ],
+  "date": "Tue Jan 10 2023 22:09:17 GMT+0530 (India Standard Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63bd954108b3d2030263c6e4"
+  },
+  "category_id": "6391df25fb491dd3a51999c3",
+  "sub_category_id": "63b7ed4583c5679b4982da29",
+  "store_id": "63b14c152a870c24333e16b5",
+  "name": "Kappa and Fish Curry",
+  "price": "200 ",
+  "weight": [
+    "1"
+  ],
+  "weight_type": "Plate",
+  "stock_count": "99",
+  "discount": "10",
+  "tax": "15",
+  "images": [
+    "1673368897853-Kappa-and-Fish-Curry.jpg"
+  ],
+  "date": "Tue Jan 10 2023 22:11:37 GMT+0530 (India Standard Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63bd95f708b3d203026400ce"
+  },
+  "category_id": "6391df25fb491dd3a51999c3",
+  "sub_category_id": "63b7ed4583c5679b4982da29",
+  "store_id": "63b149bb2a870c24333e16a8",
+  "name": "Kappa and Meen Mulakittathu",
+  "price": "500 ",
+  "weight": [
+    "2"
+  ],
+  "weight_type": "People",
+  "stock_count": "99",
+  "discount": "12",
+  "tax": "20",
+  "images": [
+    "1673369079657-Kappa-and-Meen-Mulakittathu.jpg"
+  ],
+  "date": "Tue Jan 10 2023 22:14:39 GMT+0530 (India Standard Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63bd962d08b3d20302641067"
+  },
+  "category_id": "6391df25fb491dd3a51999c3",
+  "sub_category_id": "63b7ed4583c5679b4982da29",
+  "store_id": "63b1490b2a870c24333e169b",
+  "name": "Kozhi Peralan",
+  "price": "82 ",
+  "weight": [
+    "1"
+  ],
+  "weight_type": "Gram",
+  "stock_count": "99",
+  "discount": "5",
+  "tax": "15",
+  "images": [
+    "1673369133213-Kozhi-Peralan.jpg"
+  ],
+  "date": "Tue Jan 10 2023 22:15:33 GMT+0530 (India Standard Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63bd96a908b3d20302643060"
+  },
+  "category_id": "6391df25fb491dd3a51999c3",
+  "sub_category_id": "63b7ed4583c5679b4982da29",
+  "store_id": "63b148222a870c24333e168e\r\n",
+  "name": "Kunji Pathari",
+  "price": "400",
+  "weight": [
+    "2"
+  ],
+  "weight_type": "People",
+  "stock_count": "99",
+  "discount": "15",
+  "tax": "20",
+  "images": [
+    "1673369257259-Kunji-Pathari.jpg"
+  ],
+  "date": "Tue Jan 10 2023 22:17:37 GMT+0530 (India Standard Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63bd96fa08b3d203026444d9"
+  },
+  "category_id": "6391df25fb491dd3a51999c3",
+  "sub_category_id": "63b7ed4583c5679b4982da29",
+  "store_id": "63b147412a870c24333e1681",
+  "name": "Lamb with Tapioca Ularthiyathu",
+  "price": "500",
+  "weight": [
+    "300"
+  ],
+  "weight_type": "Gram",
+  "stock_count": "99",
+  "discount": "5",
+  "tax": "17",
+  "images": [
+    "1673369338469-Lamb-with-Tapioca-Ularthiyathu.jpg"
+  ],
+  "date": "Tue Jan 10 2023 22:18:58 GMT+0530 (India Standard Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63bd975a08b3d20302645cac"
+  },
+  "category_id": "6391df25fb491dd3a51999c3",
+  "sub_category_id": "63b7ed4583c5679b4982da29",
+  "store_id": "63b146942a870c24333e1674",
+  "name": "Malabar-Chicken-Biriyani",
+  "price": "160",
+  "weight": [
+    "1"
+  ],
+  "weight_type": "Plate",
+  "stock_count": "99",
+  "discount": "10",
+  "tax": "13",
+  "images": [
+    "1673369434756-Malabar-Chicken-Biriyani.jpg"
+  ],
+  "date": "Tue Jan 10 2023 22:20:34 GMT+0530 (India Standard Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63bd97ad08b3d20302647197"
+  },
+  "category_id": "6391df25fb491dd3a51999c3",
+  "sub_category_id": "63b7ed4583c5679b4982da29",
+  "store_id": "63b1461b2a870c24333e1667",
+  "name": "Malabar Duck Roast",
+  "price": "99",
+  "weight": [
+    "100"
+  ],
+  "weight_type": "Gram",
+  "stock_count": "99",
+  "discount": "8",
+  "tax": "16",
+  "images": [
+    "1673369517771-Malabar-Duck-Roast.jpg"
+  ],
+  "date": "Tue Jan 10 2023 22:21:57 GMT+0530 (India Standard Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63bd97f308b3d20302648302"
+  },
+  "category_id": "6391df25fb491dd3a51999c3",
+  "sub_category_id": "63b7ed4583c5679b4982da29",
+  "store_id": "63b145222a870c24333e165a",
+  "name": "Malabari-Fish-Roast",
+  "price": "300",
+  "weight": [
+    "1"
+  ],
+  "weight_type": "Kg",
+  "stock_count": "99",
+  "discount": "15",
+  "tax": "18",
+  "images": [
+    "1673369587166-Malabari-Fish-Roast.jpg"
+  ],
+  "date": "Tue Jan 10 2023 22:23:07 GMT+0530 (India Standard Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63bd982b08b3d203026490b6"
+  },
+  "category_id": "6391df25fb491dd3a51999c3",
+  "sub_category_id": "63b7ed4583c5679b4982da29",
+  "store_id": "63b144802a870c24333e164d",
+  "name": "Malabar Lamb Curry",
+  "price": "600",
+  "weight": [
+    "1"
+  ],
+  "weight_type": "Kg",
+  "stock_count": "99",
+  "discount": "20",
+  "tax": "19",
+  "images": [
+    "1673369643436-Malabar-Lamb-Curry.jpg"
+  ],
+  "date": "Tue Jan 10 2023 22:24:03 GMT+0530 (India Standard Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63bd986308b3d20302649e11"
+  },
+  "category_id": "6391df25fb491dd3a51999c3",
+  "sub_category_id": "63b7ed4583c5679b4982da29",
+  "store_id": "63b143d22a870c24333e1640",
+  "name": "Mutton Biriyani",
+  "price": "250",
+  "weight": [
+    "1"
+  ],
+  "weight_type": "Kg",
+  "stock_count": "99",
+  "discount": "10",
+  "tax": "14",
+  "images": [
+    "1673369699270-Mutton-Biriyani.jpg"
+  ],
+  "date": "Tue Jan 10 2023 22:24:59 GMT+0530 (India Standard Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63bd98a908b3d2030264ae95"
+  },
+  "category_id": "6391df25fb491dd3a51999c3",
+  "sub_category_id": "63b7ed4583c5679b4982da29",
+  "store_id": "63b142f12a870c24333e1633",
+  "name": "Mutton Coconut Fry",
+  "price": "135",
+  "weight": [
+    "1"
+  ],
+  "weight_type": "Packet",
+  "stock_count": "99",
+  "discount": "12",
+  "tax": "20",
+  "images": [
+    "1673369769602-Mutton-Coconut-Fry.jpg"
+  ],
+  "date": "Tue Jan 10 2023 22:26:09 GMT+0530 (India Standard Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63bd98e808b3d2030264bd11"
+  },
+  "category_id": "6391df25fb491dd3a51999c3",
+  "sub_category_id": "63b7ed4583c5679b4982da29",
+  "store_id": "63b141a42a870c24333e1626",
+  "name": "Mutton Soup",
+  "price": "300",
+  "weight": [
+    "1"
+  ],
+  "weight_type": "Kg",
+  "stock_count": "99",
+  "discount": "8",
+  "tax": "15",
+  "images": [
+    "1673369832070-Mutton-Soup.jpg"
+  ],
+  "date": "Tue Jan 10 2023 22:27:12 GMT+0530 (India Standard Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63bd991f08b3d2030264c97a"
+  },
+  "category_id": "6391df25fb491dd3a51999c3",
+  "sub_category_id": "63b7ed4583c5679b4982da29",
+  "store_id": "63b1410f2a870c24333e1619",
+  "name": "Mutton Stew",
+  "price": "750",
+  "weight": [
+    "1"
+  ],
+  "weight_type": "Kg",
+  "stock_count": "99",
+  "discount": "13",
+  "tax": "18",
+  "images": [
+    "1673369887160-Mutton-Stew.jpg"
+  ],
+  "date": "Tue Jan 10 2023 22:28:07 GMT+0530 (India Standard Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63bd997708b3d2030264ddc7"
+  },
+  "category_id": "6391df25fb491dd3a51999c3",
+  "sub_category_id": "63b7ed4583c5679b4982da29",
+  "store_id": "63b140a82a870c24333e160c",
+  "name": "Mutton Ularthiyathu",
+  "price": "600",
+  "weight": [
+    "1"
+  ],
+  "weight_type": "Kg",
+  "stock_count": "99",
+  "discount": "15",
+  "tax": "21",
+  "images": [
+    "1673369975769-Mutton-Ularthiyathu.jpg"
+  ],
+  "date": "Tue Jan 10 2023 22:29:35 GMT+0530 (India Standard Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63bd9f6e08b3d2030266269c"
+  },
+  "category_id": "6391df25fb491dd3a51999c3",
+  "sub_category_id": "63b7ed4583c5679b4982da29",
+  "store_id": "63b150702a870c24333e16f1",
+  "name": "Nadan Kozhi Curry",
+  "price": "200",
+  "weight": [
+    "1"
+  ],
+  "weight_type": "Kg",
+  "stock_count": "99",
+  "discount": "12",
+  "tax": "16",
+  "images": [
+    "1673371502225-Nadan-Kozhi-Curry.jpg"
+  ],
+  "date": "Tue Jan 10 2023 22:55:02 GMT+0530 (India Standard Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63bd9fc308b3d2030266269f"
+  },
+  "category_id": "6391df25fb491dd3a51999c3",
+  "sub_category_id": "63b7ed4583c5679b4982da29",
+  "store_id": "63b14db12a870c24333e16e4",
+  "name": "Netholi Vazhayilayil Pollichathu",
+  "price": "350",
+  "weight": [
+    "1"
+  ],
+  "weight_type": "Kg",
+  "stock_count": "99",
+  "discount": "10",
+  "tax": "15",
+  "images": [
+    "1673371587866-Netholi-Vazhayilayil-Pollichathu.jpg"
+  ],
+  "date": "Tue Jan 10 2023 22:56:27 GMT+0530 (India Standard Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63bda05808b3d203026626a2"
+  },
+  "category_id": "6391df25fb491dd3a51999c3",
+  "sub_category_id": "63b7ed4583c5679b4982da29",
+  "store_id": "63b14d462a870c24333e16cf",
+  "name": "Paral Chuttathu or Grilled Paral",
+  "price": "399",
+  "weight": [
+    "250"
+  ],
+  "weight_type": "Gram",
+  "stock_count": "99",
+  "discount": "9",
+  "tax": "12",
+  "images": [
+    "1673371736321-Paral-Chuttathu-or-Grilled-Paral.jpg"
+  ],
+  "date": "Tue Jan 10 2023 22:58:56 GMT+0530 (India Standard Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63bda13d08b3d203026626a5"
+  },
+  "category_id": "6391df25fb491dd3a51999c3",
+  "sub_category_id": "63b7ed4583c5679b4982da29",
+  "store_id": "63b14cd12a870c24333e16c2",
+  "name": "Pearl Spot or Karimeen Mappas",
+  "price": "250",
+  "weight": [
+    "1"
+  ],
+  "weight_type": "Kg",
+  "stock_count": "99",
+  "discount": "8",
+  "tax": "20",
+  "images": [
+    "1673371965837-Pearl-Spot-or-Karimeen-Mappas.jpg"
+  ],
+  "date": "Tue Jan 10 2023 23:02:45 GMT+0530 (India Standard Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63bda18908b3d203026626a8"
+  },
+  "category_id": "6391df25fb491dd3a51999c3",
+  "sub_category_id": "63b7ed4583c5679b4982da29",
+  "store_id": "63b14c152a870c24333e16b5",
+  "name": "Pork Peralan",
+  "price": "250",
+  "weight": [
+    "1"
+  ],
+  "weight_type": "Kg",
+  "stock_count": "99",
+  "discount": "10",
+  "tax": "18",
+  "images": [
+    "1673372041319-Pork-Peralan.jpg"
+  ],
+  "date": "Tue Jan 10 2023 23:04:01 GMT+0530 (India Standard Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63bda20408b3d203026626ab"
+  },
+  "category_id": "6391df25fb491dd3a51999c3",
+  "sub_category_id": "63b7ed4583c5679b4982da29",
+  "store_id": "63b149bb2a870c24333e16a8",
+  "name": "Pork with Kaya Ularthiyathu",
+  "price": "400",
+  "weight": [
+    "2"
+  ],
+  "weight_type": "People",
+  "stock_count": "99",
+  "discount": "15",
+  "tax": "20",
+  "images": [
+    "1673372164915-Pork-with-Kaya-Ularthiyathu.jpg"
+  ],
+  "date": "Tue Jan 10 2023 23:06:04 GMT+0530 (India Standard Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63bda28108b3d203026626ae"
+  },
+  "category_id": "6391df25fb491dd3a51999c3",
+  "sub_category_id": "63b7ed4583c5679b4982da29",
+  "store_id": "63b1490b2a870c24333e169b",
+  "name": "Prawns Appam",
+  "price": "160",
+  "weight": [
+    "4"
+  ],
+  "weight_type": "Pack",
+  "stock_count": "99",
+  "discount": "12",
+  "tax": "15",
+  "images": [
+    "1673372289088-Prawns-Appam.jpg"
+  ],
+  "date": "Tue Jan 10 2023 23:08:09 GMT+0530 (India Standard Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63bda2ad08b3d203026626b1"
+  },
+  "category_id": "6391df25fb491dd3a51999c3",
+  "sub_category_id": "63b7ed4583c5679b4982da29",
+  "store_id": "63b148222a870c24333e168e",
+  "name": "Prawns Chilly Fry",
+  "price": "160",
+  "weight": [
+    "4"
+  ],
+  "weight_type": "Pack",
+  "stock_count": "99",
+  "discount": "10",
+  "tax": "18",
+  "images": [
+    "1673372333047-Prawns-Chilly-Fry.jpg"
+  ],
+  "date": "Tue Jan 10 2023 23:08:53 GMT+0530 (India Standard Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63bda31808b3d203026626b4"
+  },
+  "category_id": "6391df25fb491dd3a51999c3",
+  "sub_category_id": "63b7ed4583c5679b4982da29",
+  "store_id": "63b147412a870c24333e1681",
+  "name": "Prawns Fry",
+  "price": "675",
+  "weight": [
+    "1"
+  ],
+  "weight_type": "Kg",
+  "stock_count": "99",
+  "discount": "8",
+  "tax": "15",
+  "images": [
+    "1673372440429-Prawns-Fry.jpg"
+  ],
+  "date": "Tue Jan 10 2023 23:10:40 GMT+0530 (India Standard Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63bda37508b3d203026626b7"
+  },
+  "category_id": "6391df25fb491dd3a51999c3",
+  "sub_category_id": "63b7ed4583c5679b4982da29",
+  "store_id": "63b146942a870c24333e1674",
+  "name": "Prawns in Country Style",
+  "price": "600",
+  "weight": [
+    "1"
+  ],
+  "weight_type": "Kg",
+  "stock_count": "99",
+  "discount": "12",
+  "tax": "18",
+  "images": [
+    "1673372533899-Prawns-in-Country-Style.jpg"
+  ],
+  "date": "Tue Jan 10 2023 23:12:13 GMT+0530 (India Standard Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63bda42508b3d203026626ba"
+  },
+  "category_id": "6391df25fb491dd3a51999c3",
+  "sub_category_id": "63b7ed4583c5679b4982da29",
+  "store_id": "63b1461b2a870c24333e1667",
+  "name": "Prawns Pollichathu",
+  "price": "150",
+  "weight": [
+    "175x3"
+  ],
+  "weight_type": "Gram",
+  "stock_count": "99",
+  "discount": "8",
+  "tax": "13",
+  "images": [
+    "1673372709706-Prawns-Pollichathu.jpg"
+  ],
+  "date": "Tue Jan 10 2023 23:15:09 GMT+0530 (India Standard Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63bda4fb08b3d203026626bd"
+  },
+  "category_id": "6391df25fb491dd3a51999c3",
+  "sub_category_id": "63b7ed4583c5679b4982da29",
+  "store_id": "63b145222a870c24333e165a",
+  "name": "Puzha Meen Curry",
+  "price": "450",
+  "weight": [
+    "185"
+  ],
+  "weight_type": "Gram",
+  "stock_count": "99",
+  "discount": "10",
+  "tax": "16",
+  "images": [
+    "1673372923722-Puzha-Meen-Curry.jpg"
+  ],
+  "date": "Tue Jan 10 2023 23:18:43 GMT+0530 (India Standard Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63bda70008b3d203026626c0"
+  },
+  "category_id": "6391df25fb491dd3a51999c3",
+  "sub_category_id": "63b7ed4583c5679b4982da29",
+  "store_id": "63b144802a870c24333e164d",
+  "name": "Seer Fish Molee",
+  "price": "450",
+  "weight": [
+    "200"
+  ],
+  "weight_type": "Gram",
+  "stock_count": "99",
+  "discount": "10",
+  "tax": "22",
+  "images": [
+    "1673373440703-Seer-Fish-Molee.jpg"
+  ],
+  "date": "Tue Jan 10 2023 23:27:20 GMT+0530 (India Standard Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63bda73c08b3d203026626c3"
+  },
+  "category_id": "6391df25fb491dd3a51999c3",
+  "sub_category_id": "63b7ed4583c5679b4982da29",
+  "store_id": "63b143d22a870c24333e1640",
+  "name": "Stewed Vegetables with Prawns",
+  "price": "1200",
+  "weight": [
+    "1"
+  ],
+  "weight_type": "Plate",
+  "stock_count": "99",
+  "discount": "10",
+  "tax": "22",
+  "images": [
+    "1673373500827-Stewed-Vegetables-with-Prawns.jpg"
+  ],
+  "date": "Tue Jan 10 2023 23:28:20 GMT+0530 (India Standard Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63bda77408b3d203026626c6"
+  },
+  "category_id": "6391df25fb491dd3a51999c3",
+  "sub_category_id": "63b7ed4583c5679b4982da29",
+  "store_id": "63b142f12a870c24333e1633",
+  "name": "Stuffed Chicken",
+  "price": "1350",
+  "weight": [
+    "1"
+  ],
+  "weight_type": "Plate",
+  "stock_count": "99",
+  "discount": "8",
+  "tax": "18",
+  "images": [
+    "1673373556294-Stuffed-Chicken.jpg"
+  ],
+  "date": "Tue Jan 10 2023 23:29:16 GMT+0530 (India Standard Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63bda7cb08b3d203026626c9"
+  },
+  "category_id": "6391df25fb491dd3a51999c3",
+  "sub_category_id": "63b7ed4583c5679b4982da29",
+  "store_id": "63b141a42a870c24333e1626",
+  "name": "Stuffed Chicken Fry",
+  "price": "599",
+  "weight": [
+    "1"
+  ],
+  "weight_type": "Plate",
+  "stock_count": "99",
+  "discount": "8",
+  "tax": "15",
+  "images": [
+    "1673373643022-Stuffed-Chicken-Fry.jpg"
+  ],
+  "date": "Tue Jan 10 2023 23:30:43 GMT+0530 (India Standard Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63bda80008b3d203026626cc"
+  },
+  "category_id": "6391df25fb491dd3a51999c3",
+  "sub_category_id": "63b7ed4583c5679b4982da29",
+  "store_id": "63b1410f2a870c24333e1619",
+  "name": "Stuffed Mussels with Seafood",
+  "price": "99",
+  "weight": [
+    "1"
+  ],
+  "weight_type": "Packet",
+  "stock_count": "99",
+  "discount": "9",
+  "tax": "12",
+  "images": [
+    "1673373696813-Stuffed-Mussels-with-seafood.jpg"
+  ],
+  "date": "Tue Jan 10 2023 23:31:36 GMT+0530 (India Standard Time)",
+  "__v": 0
 }]

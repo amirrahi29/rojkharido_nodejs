@@ -2,7 +2,7 @@ const ProductModel = require('../model/RojkharidoProductModel');
 const RojkharidoStoreModel = require('../model/RojkharidoStoreModel');
 const config = require('../config/config');
 
-const addProduct = async (req,res)=>{
+const addProduct = async (req, res) => {
 
     const category_id = req.body.category_id;
     const sub_category_id = req.body.sub_category_id;
@@ -17,40 +17,38 @@ const addProduct = async (req,res)=>{
     const date = Date().toString();
 
     try {
-
         const myProduct = await ProductModel.findOne({ "name": name });
-        if(!myProduct){
+        if (!myProduct) {
 
-        var arrImages = [];
-        for(let i = 0; i<req.files.length; i++){
-            arrImages[i] = req.files[i].filename;
+            var arrImages = [];
+            for (let i = 0; i < req.files.length; i++) {
+                arrImages[i] = req.files[i].filename;
+            }
+
+            var product = new ProductModel({
+                category_id: category_id,
+                sub_category_id: sub_category_id,
+                store_id: store_id,
+                name: name,
+                price: price,
+                weight: weight,
+                weight_type: weight_type,
+                stock_count: stock_count,
+                discount: discount,
+                tax: tax,
+                date: date,
+                images: arrImages
+            });
+
+            const productData = await product.save();
+            res.status(200).send({ success: true, msg: "Product details", data: productData });
+        } else {
+            res.status(200).send({ success: false, msg: "This product is already exists!" });
         }
 
-        var product = new ProductModel({
-            category_id:category_id,
-            sub_category_id:sub_category_id,
-            store_id:store_id,
-            name:name,
-            price:price,
-            weight:weight,
-            weight_type:weight_type,
-            stock_count:stock_count,
-            discount:discount,
-            tax:tax,
-            date:date,
-            images:arrImages
-        });
-
-        const productData = await product.save();
-        res.status(200).send({success:true,msg:"Product details",data:productData});
-    }else{
-        res.status(200).send({success:false,msg:"This product is already exists!"});
-    }
-        
     } catch (error) {
-        res.status(400).send({success:false,msg:error.message});
+        res.status(400).send({ success: false, msg: error.message });
     }
-
 }
 
 const allnearestStoresProducts = async (req, res) => {
@@ -59,67 +57,143 @@ const allnearestStoresProducts = async (req, res) => {
     const longitude = req.body.longitude;
     const maxDistance = req.body.maxDistance;
     const type = req.body.type;
-    const limit = req.body.limit;
+    const pageLimit = req.body.limit;
+    const page = req.body.page;
 
     try {
         let storeData = await RojkharidoStoreModel.aggregate([
             {
-            $geoNear: {
-                near: {
-                    type: "Point",
-                    coordinates: [parseFloat(longitude), parseFloat(latitude)]
-                },
-                distanceField: "distance",
-                maxDistance: maxDistance * 1609,
-                spherical: true
+                $geoNear: {
+                    near: {
+                        type: "Point",
+                        coordinates: [parseFloat(longitude), parseFloat(latitude)]
+                    },
+                    distanceField: "distance",
+                    maxDistance: maxDistance * 1609,
+                    spherical: true
+                }
             }
-            }
-        ]).limit(limit);
+        ]);
         var productData = [];
-        if(storeData.length>0){
-            
-            for(let i = 0; i<storeData.length; i++){
-                if(storeData[i].storeType === type){
-                
-                var store_id = storeData[i]['_id'].toString();
-                var productPro = await ProductModel.find({store_id:store_id});
-                if(productPro.length>0){
-                    for(let j = 0; j<productPro.length; j++){
-                        productData.push({
-                            _id: productPro[j]._id,
-                            category_id: productPro[j].category_id,
-                            sub_category_id: productPro[j].sub_category_id,
-                            store_id: productPro[j].store_id,
-                            name: productPro[j].name,
-                            price: productPro[j].price,
-                            weight: productPro[j].weight[0],
-                            weight_type: productPro[j].weight_type,
-                            stock_count: productPro[j].stock_count,
-                            discount: productPro[j].discount,
-                            tax: productPro[j].tax,
-                            type: productPro[j].type,
-                            storeName: storeData[i]['storeName'],
-                            storeId: storeData[i]['_id'],
-                            image: config.BASE_URL+"RojkharidoProductImages/"+productPro[j].images[0],
-                            date: productPro[j].date,
-                        });
+        if (storeData.length > 0) {
+            let productCount = 0;
+            for (let i = 0; i < storeData.length; i++) {
+                if (storeData[i].storeType === type) {
+
+                    var store_id = storeData[i]['_id'].toString();
+                    var productPro = await ProductModel.find({ store_id: store_id });
+                    if (productPro.length > 0) {
+                        for (let j = 0; j < productPro.length; j++) {
+                            if (productCount >= (page - 1) * pageLimit && productCount < page * pageLimit) {
+                                productData.push({
+                                    _id: productPro[j]._id,
+                                    category_id: productPro[j].category_id,
+                                    sub_category_id: productPro[j].sub_category_id,
+                                    store_id: productPro[j].store_id,
+                                    name: productPro[j].name,
+                                    price: productPro[j].price,
+                                    weight: productPro[j].weight[0],
+                                    weight_type: productPro[j].weight_type,
+                                    stock_count: productPro[j].stock_count,
+                                    discount: productPro[j].discount,
+                                    tax: productPro[j].tax,
+                                    type: productPro[j].type,
+                                    storeName: storeData[i]['storeName'],
+                                    storeId: storeData[i]['_id'],
+                                    image: config.BASE_URL + "RojkharidoProductImages/" + productPro[j].images[0],
+                                    date: productPro[j].date,
+                                });
+                            }
+                            productCount++;
+                        }
+                    }
+
+                }
+            }
+            res.status(200).send({ success: true, msg: "All products", total: productCount, data: productData });
+        } else {
+            res.status(200).send({ success: false, msg: "No Products!", data: productData });
+        }
+
+    } catch (error) {
+        res.status(400).send({ success: false, msg: error.message });
+    }
+}
+
+const allnearestStoresProductsPriceRange = async (req, res) => {
+
+    const latitude = req.body.latitude;
+    const longitude = req.body.longitude;
+    const maxDistance = req.body.maxDistance;
+    const type = req.body.type;
+    const pageLimit = req.body.limit;
+    const page = req.body.page;
+    const priceRange = req.body.priceRange;
+
+    try {
+        let storeData = await RojkharidoStoreModel.aggregate([
+            {
+                $geoNear: {
+                    near: {
+                        type: "Point",
+                        coordinates: [parseFloat(longitude), parseFloat(latitude)]
+                    },
+                    distanceField: "distance",
+                    maxDistance: maxDistance * 1609,
+                    spherical: true
+                }
+            }
+        ]);
+        var productData = [];
+        if (storeData.length > 0) {
+            let productCount = 0;
+            for (let i = 0; i < storeData.length; i++) {
+                if (storeData[i].storeType === type) {
+
+                    var store_id = storeData[i]['_id'].toString();
+                    var productPro = await ProductModel.find({ store_id: store_id });
+                    if (productPro.length > 0) {
+                        for (let j = 0; j < productPro.length; j++) {
+                            if(priceRange>Number(productPro[j].price)){
+                                if (productCount >= (page - 1) * pageLimit && productCount < page * pageLimit) {
+                                    productData.push({
+                                        _id: productPro[j]._id,
+                                        category_id: productPro[j].category_id,
+                                        sub_category_id: productPro[j].sub_category_id,
+                                        store_id: productPro[j].store_id,
+                                        name: productPro[j].name,
+                                        price: productPro[j].price,
+                                        weight: productPro[j].weight[0],
+                                        weight_type: productPro[j].weight_type,
+                                        stock_count: productPro[j].stock_count,
+                                        discount: productPro[j].discount,
+                                        tax: productPro[j].tax,
+                                        type: productPro[j].type,
+                                        storeName: storeData[i]['storeName'],
+                                        storeId: storeData[i]['_id'],
+                                        image: config.BASE_URL + "RojkharidoProductImages/" + productPro[j].images[0],
+                                        date: productPro[j].date,
+                                    });
+                                }
+                                productCount++;
+                            }
+                          
+                        }
                     }
                 }
-                
-              }
             }
-            res.status(200).send({success:true,msg:"All products",data:productData});
-
-        }else{
-            res.status(200).send({success:false,msg:"No Products!",data:productData});
+            res.status(200).send({ success: true, msg: "All products", total: productCount, data: productData });
+        } else {
+            res.status(200).send({ success: false, msg: "No Products!", data: productData });
         }
-        
+
     } catch (error) {
-        res.status(400).send({success:false,msg:error.message});
+        res.status(400).send({ success: false, msg: error.message });
     }
 }
 
 module.exports = {
     addProduct,
-    allnearestStoresProducts
+    allnearestStoresProducts,
+    allnearestStoresProductsPriceRange
 }

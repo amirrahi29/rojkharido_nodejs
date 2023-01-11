@@ -36,5 +36,6 @@ const productController = require('../controller/RojkharidoProductController');
 //api
 product_route.post('/addProduct',upload.array('images'),productController.addProduct);
 product_route.post('/allnearestStoresProducts',productController.allnearestStoresProducts);
+product_route.post('/allnearestStoresProductsPriceRange',productController.allnearestStoresProductsPriceRange);
 
 module.exports = product_route;
