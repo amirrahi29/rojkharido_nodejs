@@ -1,0 +1,31 @@
+[{
+  "_id": {
+    "$oid": "63bbbf6628f0a703155f095b"
+  },
+  "title": "Banner 3",
+  "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
+  "category_id": "6391df25fb491dd3a51999c3",
+  "rojkharido_banner_image": "1673248614289-3.png",
+  "date": "Mon Jan 09 2023 12:46:54 GMT+0530 (India Standard Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63bbbf7628f0a703155f095e"
+  },
+  "title": "Banner 2",
+  "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
+  "category_id": "6391df25fb491dd3a51999c3",
+  "rojkharido_banner_image": "1673248630699-2.png",
+  "date": "Mon Jan 09 2023 12:47:10 GMT+0530 (India Standard Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63bbbf7f28f0a703155f0961"
+  },
+  "title": "Banner 1",
+  "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
+  "category_id": "6391df25fb491dd3a51999c3",
+  "rojkharido_banner_image": "1673248639429-1.png",
+  "date": "Mon Jan 09 2023 12:47:19 GMT+0530 (India Standard Time)",
+  "__v": 0
+}]

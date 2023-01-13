@@ -1,0 +1,17 @@
+[{
+  "_id": {
+    "$oid": "63bdb5a07e4bd0c37c3bc6e9"
+  },
+  "name": "Amir Rahi",
+  "email": "amirrahi29@gmail.com",
+  "password": "$2a$10$eB48kE1N83jSDit7roh0mezgllDr/yJ3avlD036TLdr7rixyug1W.",
+  "image": "https://lh3.googleusercontent.com/a/AEdFTp4j6C90p4PpYXQlqRs_5GrNO_4fqHhHyVk2lt7erw=s96-c",
+  "mobile": "101490462995677958275",
+  "type": 1,
+  "date": "Wed Jan 11 2023 00:29:44 GMT+0530 (India Standard Time)",
+  "isBlocked": "0",
+  "isEmailVerified": "1",
+  "isPhoneVerified": "0",
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2M2JkYjVhMDdlNGJkMGMzN2MzYmM2ZTkiLCJpYXQiOjE2NzMzNzcyMDl9.x5tzIwmaKT2UqZmVE7HmrIuiwKz7TY5ZPzTq-wehfFY",
+  "__v": 0
+}]
