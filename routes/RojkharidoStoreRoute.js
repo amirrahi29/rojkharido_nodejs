@@ -36,5 +36,6 @@ store_route.post('/addRojkharidoStore',upload.single('storeImage'), rojkharidoSt
 store_route.get('/allRojkharidoStore', rojkharidoStoreController.allRojkharidoStore);
 store_route.post('/updateStoreEmailOrPhoneVerified', rojkharidoStoreController.updateStoreEmailOrPhoneVerified);
 store_route.post('/nearestRojkharidoStore', rojkharidoStoreController.nearestRojkharidoStore);
+store_route.post('/rojkharidoStoreDetails', rojkharidoStoreController.rojkharidoStoreDetails);
 
 module.exports = store_route;
