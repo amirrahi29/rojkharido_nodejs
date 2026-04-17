@@ -14,7 +14,7 @@ app.use(express.static('public'));
 // restaurant_grocery database
 const mongoose = require("mongoose");
 //mongoose.connect("mongodb://127.0.0.1:27017/rojkharido");
-mongoose.connect("mongodb+srv://rojkharido:Ps9575811347@cluster0.hbi2ofd.mongodb.net/rojkharido?retryWrites=true&w=majority");
+mongoose.connect("URI");
 //if the db connected
 mongoose.connection.on('connected', function () {
     console.log('Mongoose connected');
